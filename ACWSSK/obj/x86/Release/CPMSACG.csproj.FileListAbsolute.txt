@@ -1,0 +1,211 @@
+D:\Longbow\Application\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+D:\Longbow\Application\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe
+D:\Longbow\Application\CPMSACG\CPMSACG\bin\Release\CPMSACG.pdb
+D:\Longbow\Application\CPMSACG\CPMSACG\bin\Release\EltraSistemi.dll
+D:\Longbow\Application\CPMSACG\CPMSACG\bin\Release\TicketHandler.dll
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.baml
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.baml
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.baml
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\App.baml
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.g.cs
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.g.cs
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.g.cs
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\App.g.cs
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_Content.g.cs
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.cache
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.lref
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\Dictionary.baml
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.g.resources
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.Properties.Resources.resources
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csproj.GenerateResource.Cache
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+D:\Longbow\Application\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\bin\Release\CPMSACG.pdb
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\bin\Release\EltraSistemi.dll
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\bin\Release\TicketHandler.dll
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.baml
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.baml
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.baml
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\App.baml
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.g.cs
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.g.cs
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.g.cs
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\App.g.cs
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_Content.g.cs
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.cache
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.lref
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\Dictionary.baml
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.g.resources
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.Properties.Resources.resources
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csproj.GenerateResource.Cache
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+D:\Longbow\Application\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csprojResolveAssemblyReference.cache
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\bin\Release\CPMSACG.pdb
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\bin\Release\EltraSistemi.dll
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\bin\Release\TicketHandler.dll
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.baml
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.baml
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.baml
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\App.baml
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.g.cs
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.g.cs
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.g.cs
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\App.g.cs
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_Content.g.cs
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.cache
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.lref
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\Dictionary.baml
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.g.resources
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.Properties.Resources.resources
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csproj.GenerateResource.Cache
+D:\Project\CPMS\CPMSACG\Test\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csprojResolveAssemblyReference.cache
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\bin\Release\CPMSACG.pdb
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\bin\Release\EltraSistemi.dll
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\bin\Release\TicketHandler.dll
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\App.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\App.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_Content.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.cache
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.lref
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\Dictionary.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.g.resources
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.Properties.Resources.resources
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csproj.GenerateResource.Cache
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+D:\Project\CPMS\CPMSACG\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csprojResolveAssemblyReference.cache
+D:\Project\CPMS\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+D:\Project\CPMS\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe
+D:\Project\CPMS\CPMSACG\CPMSACG\bin\Release\CPMSACG.pdb
+D:\Project\CPMS\CPMSACG\CPMSACG\bin\Release\EltraSistemi.dll
+D:\Project\CPMS\CPMSACG\CPMSACG\bin\Release\LBSC.dll
+D:\Project\CPMS\CPMSACG\CPMSACG\bin\Release\PCSC.dll
+D:\Project\CPMS\CPMSACG\CPMSACG\bin\Release\TicketHandler.dll
+D:\Project\CPMS\CPMSACG\CPMSACG\bin\Release\TNGSC.dll
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\App.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\App.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_Content.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.cache
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.lref
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\Dictionary.baml
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.g.resources
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.Properties.Resources.resources
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csproj.GenerateResource.Cache
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+D:\Project\CPMS\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csprojResolveAssemblyReference.cache
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\CPMSACG.pdb
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\DFMonitoringClient.dll
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\EltraSistemi.dll
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\LBSC.dll
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\PCSC.dll
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\TicketHandler.dll
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\TNGSC.dll
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.baml
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.baml
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.baml
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\App.baml
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.g.cs
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.g.cs
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.g.cs
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\App.g.cs
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_Content.g.cs
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.cache
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.lref
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\Dictionary.baml
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.g.resources
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.Properties.Resources.resources
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csproj.GenerateResource.Cache
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+D:\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csprojResolveAssemblyReference.cache
+F:\CCG\Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+F:\CCG\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+F:\CCG\Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\CPMSACG.pdb
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\DFMonitoringClient.dll
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\EltraSistemi.dll
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\LBSC.dll
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\PCSC.dll
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\TicketHandler.dll
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\TNGSC.dll
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csprojResolveAssemblyReference.cache
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.baml
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.baml
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.baml
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\App.baml
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.g.cs
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.g.cs
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.g.cs
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\App.g.cs
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_Content.g.cs
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.cache
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.lref
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\Dictionary.baml
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.g.resources
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.Properties.Resources.resources
+E:\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csproj.GenerateResource.Cache
+D:\Resources\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+D:\Resources\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+D:\Resources\Longbow - Project\CPMS\Monitoring\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\LBSC.dll
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\SAVESC.dll
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\TNGSC.dll
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\CPMSACG.exe.config
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\DFMonitoringClient.dll
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\EltraSistemi.dll
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\PCSC.dll
+C:\Jac\Project\CPMSACG\CPMSACG\bin\Release\TicketHandler.dll
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.baml
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.baml
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.baml
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\App.baml
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\MainWindow.g.cs
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\View\EntryView.g.cs
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\View\ExitView.g.cs
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\App.g.cs
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_Content.g.cs
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.cache
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG_MarkupCompile.lref
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\Dictionary.baml
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.g.resources
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.Properties.Resources.resources
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.csproj.GenerateResource.Cache
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.exe
+C:\Jac\Project\CPMSACG\CPMSACG\obj\x86\Release\CPMSACG.pdb

@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="ACWSSK.View.PaymentFailedView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:gif="https://github.com/XamlAnimatedGif/XamlAnimatedGif"
+             mc:Ignorable="d" 
+             Height="755" Width="1280" MaxHeight="800" MaxWidth="1280">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image Grid.Row="0" Source="/ACWSSK;component/Resources/Images/Logo.png" Width="450" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Border Grid.Row="1" BorderBrush="{StaticResource ACWBlack}" BorderThickness="0.5"/>
+
+        <Grid Grid.Row="2" VerticalAlignment="Stretch">
+            <StackPanel Orientation="Vertical" >
+                <TextBlock Grid.Row="0" Margin="20,70,20,30" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource H70}" Text="{Binding Label_PaymentFailed, UpdateSourceTrigger=PropertyChanged}" Foreground="{StaticResource ACWBlack}" FontWeight="Bold" />
+                <Image Grid.Row="1" Margin="0" RenderOptions.BitmapScalingMode="HighQuality" gif:AnimationBehavior.SourceUri="/ACWSSK;component/Resources/Images/GIF/Failed.gif" gif:AnimationBehavior.AutoStart="True"  HorizontalAlignment="Center" Height="350"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Center" Margin="0,50,0,0">
+            <TextBlock Text="Transaction Failed!" FontSize="70" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <TextBlock Text="Please Try Again" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </StackPanel>
+        <Image Grid.Row="1" Source="/ACWSSK;component/Resources/Images/error.png" Height="250" Margin="0,0,0,0" RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Center" />
+
+    </Grid>-->
+</UserControl>

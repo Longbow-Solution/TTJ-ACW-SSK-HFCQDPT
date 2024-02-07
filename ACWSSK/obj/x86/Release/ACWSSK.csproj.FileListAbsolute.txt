@@ -1,0 +1,649 @@
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\ACWSSK.exe.config
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\ACWSSK.exe
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\ACWSSK.pdb
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\DFMonitoringClient.dll
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\LB-ipay88.dll
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\Newtonsoft.Json.dll
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\Spire.License.dll
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\Spire.Doc.dll
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\Spire.Pdf.dll
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\Newtonsoft.Json.xml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\MainWindow.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\Style.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\ErrorView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\InServiceView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\OfflineView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\App.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\MainWindow.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\App.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\DataTemplate.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\PaymentView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.Cache
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK.exe
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK.pdb
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.exe.config
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.exe
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.pdb
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.exe
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.pdb
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\DFMonitoringClient.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\LB-ipay88.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Newtonsoft.Json.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.License.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.Doc.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.Pdf.dll
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Newtonsoft.Json.xml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csprojResolveAssemblyReference.cache
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\MainWindow.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\Style.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\ErrorView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\InServiceView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\OfflineView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\App.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\MainWindow.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\App.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\DataTemplate.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\PaymentView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+D:\COMPANY\LONGBOW SOLUTIONS\OTHER\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.Cache
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.exe.config
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.exe
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.pdb
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\DFMonitoringClient.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\LB-ipay88.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Newtonsoft.Json.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.License.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.Doc.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.Pdf.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Microsoft.mshtml.dll
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Newtonsoft.Json.xml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.AssemblyReference.cache
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\MainWindow.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\Style.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\ErrorView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\InServiceView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\OfflineView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\App.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\MainWindow.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\App.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\DataTemplate.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\PaymentView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.cache
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.CoreCompileInputs.cache
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.CopyComplete
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.exe
+E:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.pdb
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.exe.config
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.exe
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.pdb
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\MainWindow.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\Style.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\ErrorView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\InServiceView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\OfflineView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\App.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\MainWindow.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\App.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.exe
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.pdb
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\DFMonitoringClient.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\LB-ipay88.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Newtonsoft.Json.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.License.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.Doc.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.Pdf.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Microsoft.mshtml.dll
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Newtonsoft.Json.xml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.AssemblyReference.cache
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\DataTemplate.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\PaymentView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.cache
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.CoreCompileInputs.cache
+D:\backup\LecShine AutoWash\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.CopyComplete
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.exe.config
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.exe
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\ACWSSK.pdb
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\DFMonitoringClient.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\LB-ipay88.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Newtonsoft.Json.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.License.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.Doc.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Spire.Pdf.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Microsoft.mshtml.dll
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\bin\Release\Newtonsoft.Json.xml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.AssemblyReference.cache
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\MainWindow.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\Style.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\ErrorView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\InServiceView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\OfflineView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\App.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\MainWindow.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\App.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\DataTemplate.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\PaymentView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.cache
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.CoreCompileInputs.cache
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.csproj.CopyComplete
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.exe
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Release\ACWSSK.pdb
+D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Release\ACWSSK.csprojResolveAssemblyReference.cache
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.exe.config
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.exe
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.pdb
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.exe
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.pdb
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\DFMonitoringClient.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\LB-ipay88.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\Newtonsoft.Json.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.License.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.Doc.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.Pdf.dll
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\Newtonsoft.Json.xml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\MainWindow.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\Style.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ErrorView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\InServiceView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\OfflineView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\App.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\MainWindow.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\App.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\DataTemplate.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.Cache
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByApp.docx
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByApp.docx
+D:\Longbow Projects\ACW\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csprojResolveAssemblyReference.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByApp.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByApp.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.exe.config
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.exe
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\DFMonitoringClient.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\LB-ipay88.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Newtonsoft.Json.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.License.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.Doc.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.Pdf.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Microsoft.mshtml.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Newtonsoft.Json.xml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\MainWindow.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\Style.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ErrorView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\InServiceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\OfflineView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\App.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\MainWindow.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\App.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\DataTemplate.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.CoreCompileInputs.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.CopyComplete
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.exe
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ms-my\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\zh-cn\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\HomeView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServiceSelectionView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\HomeView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServiceSelectionView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ms-my\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\zh-cn\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.ms-my.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.zh-cn.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentSelectionView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentSelectionView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XamlAnimatedGif.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XamlAnimatedGif.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentReceiptQR.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentReceiptQR.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\QRCoder.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csprojAssemblyReference.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByApp.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByApp.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.exe.config
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.exe
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ms-my\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\zh-cn\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\DFMonitoringClient.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\LB-ipay88.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Newtonsoft.Json.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\QRCoder.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.License.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XamlAnimatedGif.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.Doc.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.Pdf.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Microsoft.mshtml.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Newtonsoft.Json.xml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XamlAnimatedGif.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\Style.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ErrorView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\InServiceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\OfflineView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\App.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\MainWindow.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\HomeView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentSelectionView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentReceiptQR.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServiceSelectionView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\App.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\DataTemplate.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\MainWindow.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\HomeView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentSelectionView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentReceiptQR.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServiceSelectionView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.ms-my.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.zh-cn.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.CoreCompileInputs.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ms-my\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\zh-cn\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.CopyComplete
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.exe
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csprojAssemblyReference.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Resources\Videos\scan_code.mp4
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Resources\Videos\terminal_assist.mp4
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByApp.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByCard.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\FailedReceipt_ByEWallet.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByApp.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByCard.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\PrinterTemplate\SalesReceipt_ByEWallet.docx
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.exe.config
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.exe
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ACWSSK.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\ms-my\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\zh-cn\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\DFMonitoringClient.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\LB-ipay88.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Newtonsoft.Json.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\QRCoder.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.License.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XamlAnimatedGif.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFDevice.ECPIIntegration.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFDevice.FujitsuPrinter.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFUtility.DocumentPrint.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.Doc.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Spire.Pdf.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Microsoft.mshtml.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\Newtonsoft.Json.xml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XamlAnimatedGif.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\Style.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ErrorView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\InServiceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MainIdleView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MaintenanceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\OfflineView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\SystemCheckView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\App.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\MainWindow.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ErrorView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\HomeView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\InServiceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\LoadingAnimation\LoadingCircleAnimation.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MainIdleView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\MaintenanceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\OfflineView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentSelectionView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentFailedView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentPageView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentReceiptQR.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentServiceView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentSuccessView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentTimeoutView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServiceSelectionView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\SystemCheckView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\App.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_Content.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK_MarkupCompile.lref
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\DataTemplate.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\MainWindow.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\HomeView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentSelectionView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\PaymentView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentProcessView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\Payment\PaymentReceiptQR.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServiceSelectionView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.g.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.ms-my.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.Properties.Resources.zh-cn.resources
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.GenerateResource.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.CoreCompileInputs.cache
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ms-my\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\zh-cn\ACWSSK.resources.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csproj.CopyComplete
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.exe
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.pdb
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServicingLoginView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServicingView.g.cs
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServicingView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\bin\Release\XFUtility.Keyboard.dll
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\View\ServicingLoginView.baml
+C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\ACWSSK.csprojAssemblyReference.cache

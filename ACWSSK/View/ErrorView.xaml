@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="ACWSSK.View.ErrorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="755" Width="1280" MaxHeight="800" MaxWidth="1280">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Oops, something went wrong." FontSize="70" HorizontalAlignment="Center" />
+        <TextBlock Text="Redirecting to main screen." FontSize="70" HorizontalAlignment="Center"/>
+        <TextBlock Text="{Binding CustomDisplayError}" FontSize="30" Margin="0,50,0,0" TextAlignment="Center" Visibility="{Binding HasCustomError}"/>
+    </StackPanel>
+</UserControl>

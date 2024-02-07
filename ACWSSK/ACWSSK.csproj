@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B883554-3890-49BC-AA7E-BBF5E556A423}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACWSSK</RootNamespace>
+    <AssemblyName>ACWSSK</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CWICON.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="DFMonitoringClient, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\DFMonitoringClient.dll</HintPath>
+    </Reference>
+    <Reference Include="LB-ipay88">
+      <HintPath>lib\LB-ipay88.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="QRCoder, Version=1.4.3.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.3\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License">
+      <HintPath>lib\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="XamlAnimatedGif, Version=2.0.0.0, Culture=neutral, PublicKeyToken=20a987d8023d9690, processorArchitecture=MSIL">
+      <HintPath>..\packages\XamlAnimatedGif.2.0.2\lib\net45\XamlAnimatedGif.dll</HintPath>
+    </Reference>
+    <Reference Include="XFDevice.ECPIIntegration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\XFDevice.ECPIIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="XFDevice.FujitsuPrinter, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\XFDevice.FujitsuPrinter.dll</HintPath>
+    </Reference>
+    <Reference Include="XFUtility.DocumentPrint, Version=1.0.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\XFUtility.DocumentPrint.dll</HintPath>
+    </Reference>
+    <Reference Include="XFUtility.Keyboard">
+      <HintPath>lib\XFUtility.Keyboard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App_Code\ACWAPI.cs" />
+    <Compile Include="App_Code\AlarmHandler.cs" />
+    <Compile Include="App_Code\AppAPI.cs" />
+    <Compile Include="App_Code\CRUD.cs" />
+    <Compile Include="App_Code\Crypto.cs" />
+    <Compile Include="App_Code\DocumentPrintHandler.cs" />
+    <Compile Include="App_Code\Enum.cs" />
+    <Compile Include="App_Code\GeneralFunc.cs" />
+    <Compile Include="App_Code\GeneralVar.cs" />
+    <Compile Include="App_Code\IOBoard\Edam.cs" />
+    <Compile Include="App_Code\IOBoard\SerialPortHandler.cs" />
+    <Compile Include="App_Code\KeyboardHookHandler.cs" />
+    <Compile Include="App_Code\PasswordBoxAssistant.cs" />
+    <Compile Include="Controller\IOBoardController.cs" />
+    <Compile Include="Controller\TextInputToVisibilityConverter.cs" />
+    <Compile Include="Model\ACWAPIParam.cs" />
+    <Compile Include="Model\ACWAPIResponse.cs" />
+    <Compile Include="Model\ACWAppAPI.cs" />
+    <Compile Include="Model\AlarmCategory.cs" />
+    <Compile Include="Model\CheckItem.cs" />
+    <Compile Include="Model\Component.cs" />
+    <Compile Include="Model\Fare.cs" />
+    <Compile Include="Model\PaymentType.cs" />
+    <Compile Include="Model\QRReceiptModel.cs" />
+    <Compile Include="Model\Rate.cs" />
+    <Compile Include="Model\Servicing.cs" />
+    <Compile Include="Model\Transaction.cs" />
+    <Compile Include="Model\VistaParam.cs" />
+    <Compile Include="Model\VistaResponse.cs" />
+    <Compile Include="BaseViewModel.cs" />
+    <Compile Include="Model\Area.cs" />
+    <Compile Include="Properties\Resources.ms-my.Designer.cs">
+      <DependentUpon>Resources.ms-my.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.zh-cn.Designer.cs">
+      <DependentUpon>Resources.zh-cn.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Service References\ACWWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\ErrorViewModel.cs" />
+    <Compile Include="ViewModel\HomeViewModel.cs" />
+    <Compile Include="ViewModel\InServiceViewModel.cs" />
+    <Compile Include="ViewModel\MainIdleViewModel.cs" />
+    <Compile Include="ViewModel\MaintenanceViewModel.cs" />
+    <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="RelayCommand.cs" />
+    <Compile Include="ViewModel\OfflineViewModel.cs" />
+    <Compile Include="ViewModel\PaymentSelectionViewModel.cs" />
+    <Compile Include="ViewModel\PaymentViewModel.cs" />
+    <Compile Include="ViewModel\ServiceSelectionViewModel.cs" />
+    <Compile Include="ViewModel\ServicingLoginViewModel.cs" />
+    <Compile Include="ViewModel\ServicingViewModel.cs" />
+    <Compile Include="ViewModel\SystemCheckViewModel.cs" />
+    <Compile Include="View\ErrorView.xaml.cs">
+      <DependentUpon>ErrorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HomeView.xaml.cs">
+      <DependentUpon>HomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\InServiceView.xaml.cs">
+      <DependentUpon>InServiceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoadingAnimation\LoadingCircleAnimation.xaml.cs">
+      <DependentUpon>LoadingCircleAnimation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainIdleView.xaml.cs">
+      <DependentUpon>MainIdleView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MaintenanceView.xaml.cs">
+      <DependentUpon>MaintenanceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OfflineView.xaml.cs">
+      <DependentUpon>OfflineView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PaymentSelectionView.xaml.cs">
+      <DependentUpon>PaymentSelectionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PaymentView.xaml.cs">
+      <DependentUpon>PaymentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Payment\PaymentFailedView.xaml.cs">
+      <DependentUpon>PaymentFailedView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Payment\PaymentPageView.xaml.cs">
+      <DependentUpon>PaymentPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Payment\PaymentProcessView.xaml.cs">
+      <DependentUpon>PaymentProcessView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Payment\PaymentReceiptQR.xaml.cs">
+      <DependentUpon>PaymentReceiptQR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Payment\PaymentServiceView.xaml.cs">
+      <DependentUpon>PaymentServiceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Payment\PaymentSuccessView.xaml.cs">
+      <DependentUpon>PaymentSuccessView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Payment\PaymentTimeoutView.xaml.cs">
+      <DependentUpon>PaymentTimeoutView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ServiceSelectionView.xaml.cs">
+      <DependentUpon>ServiceSelectionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ServicingLoginView.xaml.cs">
+      <DependentUpon>ServicingLoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ServicingView.xaml.cs">
+      <DependentUpon>ServicingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SystemCheckView.xaml.cs">
+      <DependentUpon>SystemCheckView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="DataTemplate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ErrorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\HomeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\InServiceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoadingAnimation\LoadingCircleAnimation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainIdleView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MaintenanceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OfflineView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PaymentSelectionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PaymentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Payment\PaymentFailedView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Payment\PaymentPageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Payment\PaymentProcessView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Payment\PaymentReceiptQR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Payment\PaymentServiceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Payment\PaymentSuccessView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Payment\PaymentTimeoutView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ServiceSelectionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ServicingLoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ServicingView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SystemCheckView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.ms-my.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ms-my.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-cn.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh-cn.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PrinterTemplate\FailedReceipt_ByApp.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PrinterTemplate\FailedReceipt_ByCard.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PrinterTemplate\FailedReceipt_ByEWallet.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PrinterTemplate\SalesReceipt_ByApp.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PrinterTemplate\SalesReceipt_ByCard.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PrinterTemplate\SalesReceipt_ByEWallet.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\CWICON.ico" />
+    <Resource Include="CWICON.ico" />
+    <Resource Include="Resources\Images\PaymentMethod\Lecshine Logo.png" />
+    <Resource Include="Resources\Images\GIF\Failed.gif" />
+    <Resource Include="Resources\Images\GIF\Loader.gif" />
+    <Resource Include="Resources\Images\GIF\MoveCarForward.gif" />
+    <Resource Include="Resources\Images\GIF\ScanEwallet.gif" />
+    <Resource Include="Resources\Images\GIF\ScanLecshineApp.gif" />
+    <Resource Include="Resources\Images\GIF\Success.gif" />
+    <Resource Include="Resources\Images\GIF\TapCard.gif" />
+    <Resource Include="Resources\Images\Language\Chinese.png" />
+    <Resource Include="Resources\Images\Language\English.png" />
+    <Resource Include="Resources\Images\Language\Malay.png" />
+    <Resource Include="Resources\Images\PaymentMethod\LecshineApp.png" />
+    <Resource Include="Resources\Images\PaymentMethod\Mastercard.png" />
+    <Resource Include="Resources\Images\PaymentMethod\Visa.png" />
+    <Resource Include="Resources\Images\Logo.png" />
+    <Resource Include="Resources\Images\PaymentMethod\MakePayment.png" />
+    <Resource Include="Resources\Images\PaymentMethod\RedeemService.png" />
+    <Resource Include="Resources\Images\Maintenance.png" />
+    <Resource Include="Resources\Images\MaintenanceHeader.png" />
+    <Resource Include="Resources\Images\Password.png" />
+    <Resource Include="Resources\Images\Username.png" />
+    <Content Include="Resources\Videos\scan_code.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Videos\terminal_assist.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\Images\PaymentMethod\boost.png" />
+    <Resource Include="Resources\Images\PaymentMethod\grab.png" />
+    <Resource Include="Resources\Images\PaymentMethod\mae.png" />
+    <Resource Include="Resources\Images\PaymentMethod\tngd.png" />
+    <Resource Include="Resources\Images\PaymentMethod\bankcard.png" />
+    <Resource Include="Resources\Images\PaymentMethod\ewallet.png" />
+    <None Include="Service References\ACWWS\ACWWS1.wsdl" />
+    <None Include="Service References\ACWWS\ACWWS3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ACWWS\ACWWS31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ACWWS\ACWWS32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ACWWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ACWWS\configuration.svcinfo" />
+    <None Include="Service References\ACWWS\configuration91.svcinfo" />
+    <Resource Include="Resources\Images\PaymentMethod\InsertCard.png" />
+    <Resource Include="Resources\Images\PaymentMethod\QRCode.png" />
+    <Resource Include="Resources\Images\Background\logo.png" />
+    <Resource Include="Resources\Images\checked.png" />
+    <Resource Include="Resources\Images\error.png" />
+    <Resource Include="Resources\Images\noentry.png" />
+    <Resource Include="Resources\Images\SystemCheck\Alert.png" />
+    <Resource Include="Resources\Images\SystemCheck\checklist.png" />
+    <Resource Include="Resources\Images\SystemCheck\disabled.png" />
+    <Resource Include="Resources\Images\SystemCheck\error.png" />
+    <Resource Include="Resources\Images\SystemCheck\Info.png" />
+    <Resource Include="Resources\Images\SystemCheck\Running.png" />
+    <Resource Include="Resources\Images\SystemCheck\tick.png" />
+    <Resource Include="Resources\Images\SystemCheck\tick_disabled.png" />
+    <Content Include="lib\Edam.dll" />
+    <Content Include="lib\LB-ipay88.dll" />
+    <Content Include="lib\XFUtility.DocumentPrint.dll" />
+    <Content Include="lib\DFMonitoringClient.dll" />
+    <Content Include="lib\FTPCtrl.dll" />
+    <Content Include="lib\XFDevice.FujitsuPrinter.dll" />
+    <Resource Include="Load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ACWWS\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

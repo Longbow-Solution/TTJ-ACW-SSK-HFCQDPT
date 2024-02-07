@@ -1,0 +1,145 @@
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\TGVACG.exe.config
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\TGVACG.exe
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\TGVACG.pdb
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\DFLicenseControl.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\DFMonitoringClient.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\EltraSistemi.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\LBSC.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\PCSC.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\SAVESC.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\TicketHandler.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\TNGSC.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\XFUtility.Barcode.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\Newtonsoft.Json.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow2.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\App.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow2.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\ExitView.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\EntryView.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\App.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG_Content.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG_MarkupCompile.cache
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG_MarkupCompile.lref
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\Dictionary.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\ExitView.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\EntryView.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG.g.resources
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG.Properties.Resources.resources
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG.csproj.GenerateResource.Cache
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG.exe
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG.pdb
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\XFDevice.BarcodeScanner.HF560.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\XFDevice.BarcodeScanner.HF560.pdb
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\TGVACG.csprojResolveAssemblyReference.cache
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\TGVACG.exe
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\TGVACG.exe.config
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\DFLicenseControl.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\DFMonitoringClient.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\EltraSistemi.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\LBSC.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\PCSC.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\SAVESC.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\TicketHandler.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\TNGSC.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\XFDevice.BarcodeScanner.HF560.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\XFUtility.Barcode.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\Newtonsoft.Json.dll
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\XFDevice.BarcodeScanner.HF560.pdb
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\MainWindow2.baml
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\MainWindow.baml
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\App.baml
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\MainWindow2.g.cs
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\MainWindow.g.cs
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\View\ExitView.g.cs
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\View\EntryView.g.cs
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\App.g.cs
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\TGVACG_Content.g.cs
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\TGVACG_MarkupCompile.cache
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\TGVACG_MarkupCompile.lref
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\Dictionary.baml
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\View\ExitView.baml
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\View\EntryView.baml
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\TGVACG.g.resources
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\TGVACG.Properties.Resources.resources
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\TGVACG.csproj.GenerateResource.Cache
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\TGVACG.exe
+E:\LB-KLTOWER\TGV GATE\KLTACG\obj\x86\Debug\TGVACG.pdb
+E:\LB-KLTOWER\TGV GATE\KLTACG\bin\Debug\TGVACG.pdb
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\TGVACG.exe.config
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.exe
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.pdb
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\TGVACG.exe
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\TGVACG.pdb
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\DFLicenseControl.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\DFMonitoringClient.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\EltraSistemi.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\LBSC.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\PCSC.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\SAVESC.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\TicketHandler.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\TNGSC.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\XFDevice.BarcodeScanner.HF560.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\XFUtility.Barcode.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\Newtonsoft.Json.dll
+E:\LB-KLTOWER\TGV GATE\TGVACG\bin\Debug\XFDevice.BarcodeScanner.HF560.pdb
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.csprojResolveAssemblyReference.cache
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\MainWindow2.baml
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\MainWindow.baml
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\App.baml
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\MainWindow2.g.cs
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\MainWindow.g.cs
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\View\ExitView.g.cs
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\View\EntryView.g.cs
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\App.g.cs
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG_Content.g.cs
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG_MarkupCompile.cache
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG_MarkupCompile.lref
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\Dictionary.baml
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\View\ExitView.baml
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\View\EntryView.baml
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.g.resources
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.Properties.Resources.resources
+E:\LB-KLTOWER\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.csproj.GenerateResource.Cache
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\TGVACG.exe.config
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.exe
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.pdb
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\TGVACG.exe
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\TGVACG.pdb
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\DFLicenseControl.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\DFMonitoringClient.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\EltraSistemi.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\LBSC.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\PCSC.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\SAVESC.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\TicketHandler.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\TNGSC.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\XFDevice.BarcodeScanner.HF560.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\XFUtility.Barcode.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\bin\Debug\XFDevice.BarcodeScanner.HF560.pdb
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\MainWindow2.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\MainWindow.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\App.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\MainWindow2.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\MainWindow.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\View\ExitView.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\View\EntryView.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\App.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\TGVACG_Content.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\TGVACG_MarkupCompile.cache
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\TGVACG_MarkupCompile.lref
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\Dictionary.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\View\ExitView.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\View\EntryView.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.g.resources
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.Properties.Resources.resources
+C:\Longbow Projects\TGV\CGS\TGV GATE\TGVACG\obj\x86\Debug\TGVACG.csproj.GenerateResource.Cache

@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="ACWSSK.View.PaymentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:local="clr-namespace:ACWSSK.App_Code"
+             Height="755" Width="1280" MaxHeight="800" MaxWidth="1280">
+    <Grid>
+        <ContentControl Content="{Binding CurrentPayment, UpdateSourceTrigger=PropertyChanged}"/>
+        <!--<StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="0,50,0,0" Visibility="{ Binding PaymentProcessVisibility, UpdateSourceTrigger=PropertyChanged}">
+            
+            <TextBlock Text="Please Pay" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <TextBlock Text="{Binding Total, StringFormat='{}{0:RM#,0.00}', UpdateSourceTrigger=PropertyChanged}" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <DockPanel HorizontalAlignment="Center" Margin="0,0,0,0">
+                    <Button DockPanel.Dock="Bottom" Height="20" Content="Unified E-Wallet" Command="{Binding DemoPayCommand}" CommandParameter="1" Visibility="{Binding DemoVisibility, UpdateSourceTrigger=PropertyChanged}"/>
+                </DockPanel>
+                <DockPanel Margin="0,0,0,0">
+                    <Button Height="20" DockPanel.Dock="Bottom" Content="Credit Card" Command="{Binding DemoPayCommand}" CommandParameter="2" Visibility="{Binding DemoVisibility, UpdateSourceTrigger=PropertyChanged}" Margin="10,0,0,0" />
+                </DockPanel>
+            </StackPanel>
+
+        </StackPanel>-->
+
+        <!--<StackPanel Orientation="Vertical" VerticalAlignment="Center" Visibility="{ Binding ServiceProcessVisibility, UpdateSourceTrigger=PropertyChanged}">
+            <TextBlock Text="{Binding TextInstructionA, UpdateSourceTrigger=PropertyChanged}" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <TextBlock Text="{Binding TextInstructionB, UpdateSourceTrigger=PropertyChanged}" FontSize="100" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </StackPanel>-->
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,123 @@
+﻿<UserControl x:Class="ACWSSK.View.ServicingLoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ACWSSK.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="1280"
+             xmlns:k="clr-namespace:XFUtility.Keyboard.Controls;assembly=XFUtility.Keyboard" 
+             xmlns:ff="clr-namespace:ACWSSK.App_Code" xmlns:ff1="clr-namespace:ACWSSK.Controller">
+    
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <ff1:TextInputToVisibilityConverter x:Key="TextInputToVisibilityConverter"/>
+
+        <Style x:Key="EntryFieldStyle" TargetType="Grid" >
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="20,0" />
+        </Style>
+    </UserControl.Resources>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,-100,0,0" Visibility="{Binding IsError, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource BooleanToVisibilityConverter}}" >
+            <Image RenderOptions.ClearTypeHint="Auto" RenderOptions.EdgeMode="Aliased" RenderOptions.BitmapScalingMode="Fant" Width="20" Source="/ACWSSK;component/Resources/Images/error.png" />
+        </StackPanel>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border CornerRadius="0" Background="LightGray">
+                <StackPanel Margin="10,20,10,0" >
+                    <TextBlock Text="{Binding ComponentCode, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource H15}" Foreground="Black" />
+                    <TextBlock Style="{StaticResource H25}" Text="Maintenance-Credential" Foreground="Black" HorizontalAlignment="Center" Margin="50,5,50,5" />
+
+                    <StackPanel  Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="20,0,0,0">
+                        <Image RenderOptions.BitmapScalingMode="LowQuality" Width="20" Margin="5" Source="/ACWSSK;component/Resources/Images/Username.png"/>
+                        <Grid Margin="5,0" FocusManager.FocusedElement="{Binding ElementName=txtUsername}">
+                            <Grid.Style>
+                                <Style TargetType="{x:Type Grid}" BasedOn="{StaticResource EntryFieldStyle}">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsLock}" Value="true">
+                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Grid.Style>
+                            <TextBlock Margin="5,2" Text="Username" Style="{StaticResource H25}" Foreground="White" Visibility="{Binding ElementName=txtUsername, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter}}" />
+                            <TextBox Name="txtUsername" FontSize="25" Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Stretch" MinWidth="500" MinHeight="40" Foreground="Black" MaxLength="25" Focusable="True"/>
+                        </Grid>
+
+                        <TextBlock Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" Foreground="Green" HorizontalAlignment="Center" Margin="10,0">
+                            <TextBlock.Style>
+                                <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource H30}">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsLock}" Value="true">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+
+                        <Image RenderOptions.BitmapScalingMode="LowQuality" Width="20" Margin="0,5" Source="/ACWSSK;component/Resources/Images//error.png">
+                            <Image.Style>
+                                <Style TargetType="{x:Type Image}">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ValidUser}" Value="False">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="20,0,0,0">
+                        <Image RenderOptions.BitmapScalingMode="LowQuality" Width="20" Margin="5" Source="/ACWSSK;component/Resources/Images/Password.png"/>
+                        <Grid Name="gUsername" Margin="5,0" Style="{StaticResource EntryFieldStyle}">
+                            <TextBlock Margin="5,2" Text="Password" Style="{StaticResource H30}" FontSize="15" Foreground="Black" Visibility="{Binding PasswordIsEmpty, Converter={StaticResource BooleanToVisibilityConverter}}" />
+                            <PasswordBox Name="txtpassword" ff:PasswordBoxAssistant.BindPassword="True" ff:PasswordBoxAssistant.BoundPassword="{Binding Password,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Stretch" MinWidth="500" MinHeight="40" Foreground="Black" MaxLength="25"/>
+                        </Grid>
+                        <Image RenderOptions.BitmapScalingMode="LowQuality" Width="20" Margin="0,5" Source="/ACWSSK;component/Resources/Images/error.png">
+                            <Image.Style>
+                                <Style TargetType="{x:Type Image}">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ValidPassword, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                    </StackPanel>
+
+                    <Button Style="{StaticResource WhiteBigButton}" Margin="5" Height="60" Width="200" Command="{Binding LoginCommand}">
+                        <TextBlock Style="{StaticResource H20}" HorizontalAlignment="Center" TextWrapping="WrapWithOverflow" TextAlignment="Center" Text="Login" />
+                    </Button>
+
+                </StackPanel>
+
+            </Border>
+        </StackPanel>
+
+        <TextBlock Grid.Row="2" Style="{StaticResource H20}" Foreground="Black" Text="{Binding Footer}" Margin="0,-50,-150,0" HorizontalAlignment="Center" />
+        <k:OnScreenKeyboard Grid.Row="3" Width="900" Height="350" Opacity="1" Margin="0,20,0,0" AreAnimationsEnabled="True" />
+        <TextBlock Grid.Row="4" Style="{StaticResource H20}" Foreground="Black" Text="{Binding sTimeLeft, UpdateSourceTrigger=PropertyChanged}"/>
+        <!--<TextBlock Grid.Row="5" FontSize="60" Foreground="Red" Text="{Binding ErrorMessage, UpdateSourceTrigger=PropertyChanged}"/>-->
+
+        <TextBlock Grid.Row="5" Style="{StaticResource H15}" Text="{Binding ErrorMessage, UpdateSourceTrigger=PropertyChanged}" Foreground="Green" Margin="10"  />
+    </Grid>
+</UserControl>

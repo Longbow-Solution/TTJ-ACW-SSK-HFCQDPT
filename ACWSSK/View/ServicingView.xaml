@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="ACWSSK.View.ServicingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ACWSSK.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             xmlns:maintenance="clr-namespace:ACWSSK.App_Code">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.1*" />
+                <ColumnDefinition Width="0.9*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Image Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" RenderOptions.BitmapScalingMode="HighQuality" Source="/ACWSSK;component/Resources/Images/Maintenance.png" Opacity="0.3" Margin="0" VerticalAlignment="Top" Stretch="Fill"/>
+
+            <!--<Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" RenderOptions.BitmapScalingMode="LowQuality" Source="/ACWSSK;component/Resources/Images/MaintenanceHeader.png" Margin="10,0" Opacity="0.3" VerticalAlignment="Bottom" Stretch="Fill" />-->
+
+            <!--<TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" Text="{Binding Footer, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource H5}" Foreground="{StaticResource cIGray}" />-->
+            <!--<StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,40">
+                <Image RenderOptions.BitmapScalingMode="HighQuality" Width="45" Source="/KFCFOS;component/Resource/Image/User.png" Margin="10" />
+                <TextBlock Text="{Binding MaintenanceName}" Style="{StaticResource H3}" Foreground="{StaticResource cIGray}" />
+                <TextBlock Text="{Binding ComponentCode, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource H40}" Foreground="{StaticResource cIBlack}" />
+            </StackPanel>-->
+            <!--<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="The Ultimate Car Care Experience: Precision, Passion, Perfection!" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" Style="{StaticResource H30}" Foreground="Black" />-->
+
+            <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="50,0,0,0" HorizontalAlignment="Left" >
+                <TextBlock Style="{StaticResource H30}" HorizontalAlignment="Center" Text="Maintenance module" Foreground="Black" Margin="10" />
+                <ItemsControl ItemsSource="{Binding MaintenanceListCollection}" VirtualizingStackPanel.IsVirtualizing="True" VirtualizingStackPanel.VirtualizationMode="Recycling" HorizontalAlignment="Center">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Margin="10,5" Height="70" Width="500" HorizontalAlignment="Center" Style="{StaticResource WhiteButton}" Command="{Binding Command}" CommandParameter="{Binding CommandParameter}" IsEnabled="{Binding IsEnabled}">
+                                <Button.Content>
+                                    <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left">
+                                        <TextBlock HorizontalAlignment="Left" DockPanel.Dock="Left" Text="{Binding DisplayCode}" Foreground="Black" Style="{StaticResource H25}" Margin="15,2"/>
+                                        <TextBlock HorizontalAlignment="Left" Text="{Binding DisplayName}" Margin="0,2" VerticalAlignment="Center" Style="{StaticResource H25}"/>
+                                    </StackPanel>
+                                </Button.Content>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <Button Margin="10,5" HorizontalAlignment="Center" DockPanel.Dock="Top" Style="{StaticResource WhiteButton}" Height="70" Width="500" Command="{Binding MaintenanceCommand}" CommandParameter="{x:Static maintenance:eServicingTask.Logout}" Background="Red">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock DockPanel.Dock="Left" Text="4" Foreground="Black" Style="{StaticResource H25}" Margin="15,2"/>
+                            <TextBlock Style="{StaticResource H25}" Text="Back to Home" Margin="0,2" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

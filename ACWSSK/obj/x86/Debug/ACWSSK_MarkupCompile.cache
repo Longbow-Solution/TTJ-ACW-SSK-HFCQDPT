@@ -1,0 +1,20 @@
+﻿ACWSSK
+
+
+winexe
+C#
+.cs
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Debug\
+ACWSSK
+none
+false
+TRACE;DEBUG
+G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\App.xaml
+17859553843
+82008517122
+561310652168
+27779989862
+DataTemplate.xaml;MainWindow.xaml;Style.xaml;View\ErrorView.xaml;View\InServiceView.xaml;View\LoadingAnimation\LoadingCircleAnimation.xaml;View\MainIdleView.xaml;View\MaintenanceView.xaml;View\OfflineView.xaml;View\PaymentView.xaml;View\Payment\PaymentFailedView.xaml;View\Payment\PaymentPageView.xaml;View\Payment\PaymentProcessView.xaml;View\Payment\PaymentServiceView.xaml;View\Payment\PaymentSuccessView.xaml;View\Payment\PaymentTimeoutView.xaml;View\SystemCheckView.xaml;
+
+False
+

@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="ACWSSK.View.SystemCheckView"
+             x:Name="ucSystemCheck"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d" 
+             Height="755" Width="1280" MaxHeight="800" MaxWidth="1280">
+    <UserControl.Resources>
+        <Style x:Key="resdBorder" TargetType="{x:Type Border}">
+            <Setter Property="Padding" Value="8,15,5,15"></Setter>
+            <Setter Property="CornerRadius" Value="2"></Setter>
+        </Style>
+
+        <Style x:Key="resdComponentName" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Margin" Value="8,5,8,5"></Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <DockPanel>
+        <Border DockPanel.Dock="Top" CornerRadius="3,3,0,0" Padding="8">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#407F7F" Offset="0"></GradientStop>
+                    <GradientStop Color="#0D4D4D" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.Background>
+            <DockPanel LastChildFill="True">
+                <!--<Image Width="35" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center" HorizontalAlignment="Left" DockPanel.Dock="Left">
+                    <Image.Source>
+                        <BitmapImage UriSource="/ACWSSK;component/Resources/Images/SystemCheck/checklist.png" DecodePixelWidth="35"></BitmapImage>
+                    </Image.Source>
+                </Image>-->
+                <TextBlock Text="System Checking" Padding="8,0,0,3" Foreground="#FFFFFF" FontSize="20" VerticalAlignment="Center"></TextBlock>
+            </DockPanel>
+        </Border>
+
+        <DockPanel DockPanel.Dock="Top" LastChildFill="True">
+            <!--<StackPanel Orientation="Horizontal" Margin="0,10,0,10" DockPanel.Dock="Bottom">
+                <Button Content="Recheck" Padding="30,10" HorizontalAlignment="Left" Margin="10,0,10,0" Command="{Binding RetryCommand}" Visibility="{Binding CloseVisibility}"></Button>
+                <Button Content="Close" Padding="30,10" HorizontalAlignment="Left" Margin="10,0,10,0" Command="{Binding CloseCommand}" Visibility="{Binding CloseVisibility}"></Button>
+            </StackPanel>-->
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <ItemsControl DockPanel.Dock="Top" ItemsSource="{Binding ItemList}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel></StackPanel>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <Border Background="{Binding BackgroundColor}" Style="{StaticResource resdBorder}">
+                                    <Border.InputBindings>
+                                        <MouseBinding Gesture="LeftClick" Command="{Binding DataContext.ToggleStatusDescCommand, ElementName=ucSystemCheck}" CommandParameter="{Binding ItemCode}"></MouseBinding>
+                                    </Border.InputBindings>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Source="{Binding CheckIcon}" Width="40" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"></Image>
+                                        <TextBlock Text="{Binding ItemName}" Style="{StaticResource resdComponentName}"></TextBlock>
+                                        <TextBlock Text="{Binding Status}" Style="{StaticResource resdComponentName}"></TextBlock>
+                                    </StackPanel>
+                                </Border>
+                                <Border Visibility="{Binding StatusDescVisibility}">
+                                    <ListBox DataContext="{Binding StatusDescription}" BorderThickness="0" Background="#F0EEEA">
+                                        <ListBoxItem>
+                                            <TextBlock Text="{Binding}" Padding="5" Margin="45,5,5,5" FontSize="12"></TextBlock>
+                                        </ListBoxItem>
+                                    </ListBox>
+                                </Border>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </DockPanel>
+    </DockPanel>
+</UserControl>

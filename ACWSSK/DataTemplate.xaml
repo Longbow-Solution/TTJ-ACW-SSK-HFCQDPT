@@ -1,0 +1,56 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm ="clr-namespace:ACWSSK.ViewModel"
+                    xmlns:vw="clr-namespace:ACWSSK.View">
+
+    <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+
+    <DataTemplate DataType="{x:Type vm:MainIdleViewModel}">
+        <vw:MainIdleView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:PaymentViewModel}">
+        <vw:PaymentView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ErrorViewModel}">
+        <vw:ErrorView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:MaintenanceViewModel}">
+        <vw:MaintenanceView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:OfflineViewModel}">
+        <vw:OfflineView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:InServiceViewModel}">
+        <vw:InServiceView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:SystemCheckViewModel}">
+        <vw:SystemCheckView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+        <vw:HomeView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ServiceSelectionViewModel}">
+        <vw:ServiceSelectionView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:PaymentSelectionViewModel}">
+        <vw:PaymentSelectionView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ServicingLoginViewModel}">
+        <vw:ServicingLoginView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ServicingViewModel}">
+        <vw:ServicingView/>
+    </DataTemplate>
+
+</ResourceDictionary>

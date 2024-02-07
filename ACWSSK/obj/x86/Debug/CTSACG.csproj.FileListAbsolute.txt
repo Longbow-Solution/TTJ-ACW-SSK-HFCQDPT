@@ -1,0 +1,148 @@
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\CTSACG.exe.config
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\CTSACG.exe
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\CTSACG.pdb
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\DFLicenseControl.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\DFMonitoringClient.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\EltraSistemi.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\LBSC.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\PCSC.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\SAVESC.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\TicketHandler.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\TNGSC.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\XFDevice.BarcodeScanner.HF560.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\XFUtility.Barcode.dll
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\bin\Debug\XFDevice.BarcodeScanner.HF560.pdb
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\MainWindow2.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\MainWindow.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\App.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\MainWindow2.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\MainWindow.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\View\ExitView.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\View\EntryView.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\App.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG_Content.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG_MarkupCompile.cache
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG_MarkupCompile.lref
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\Dictionary.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\View\ExitView.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\View\EntryView.baml
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG.g.resources
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG.Properties.Resources.resources
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG.csproj.GenerateResource.Cache
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG.exe
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG.pdb
+C:\Longbow Projects\TGV\CGS\TGV GATE\CTSACG\obj\x86\Debug\CTSACG.csprojResolveAssemblyReference.cache
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\CTSACG.exe.config
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\CTSACG.exe
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\CTSACG.pdb
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\DFLicenseControl.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\DFMonitoringClient.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\EltraSistemi.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\LBSC.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\PCSC.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\SAVESC.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\TicketHandler.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\TNGSC.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\XFDevice.BarcodeScanner.HF560.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\XFUtility.Barcode.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\XFDevice.BarcodeScanner.HF560.pdb
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\MainWindow2.baml
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\MainWindow.baml
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\App.baml
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\MainWindow2.g.cs
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\MainWindow.g.cs
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\View\ExitView.g.cs
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\View\EntryView.g.cs
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\App.g.cs
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG_Content.g.cs
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG_MarkupCompile.cache
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG_MarkupCompile.lref
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\Dictionary.baml
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\View\ExitView.baml
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\View\EntryView.baml
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG.g.resources
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG.Properties.Resources.resources
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG.csproj.GenerateResource.Cache
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG.exe
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG.pdb
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\CTSACG.exe.config
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG.exe
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG.pdb
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\CTSACG.exe
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\CTSACG.pdb
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\DFLicenseControl.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\DFMonitoringClient.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\EltraSistemi.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\LBSC.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\PCSC.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\SAVESC.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\TicketHandler.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\TNGSC.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\XFDevice.BarcodeScanner.HF560.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\XFUtility.Barcode.dll
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\bin\Debug\XFDevice.BarcodeScanner.HF560.pdb
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG.csprojResolveAssemblyReference.cache
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\MainWindow2.baml
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\MainWindow.baml
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\App.baml
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\MainWindow2.g.cs
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\MainWindow.g.cs
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\View\ExitView.g.cs
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\View\EntryView.g.cs
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\App.g.cs
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG_Content.g.cs
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG_MarkupCompile.cache
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG_MarkupCompile.lref
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\Dictionary.baml
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\View\ExitView.baml
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\View\EntryView.baml
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG.g.resources
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG.Properties.Resources.resources
+C:\Longbow Projects\TGV\CGS\xxxxCTSACG\CTSACG\obj\x86\Debug\CTSACG.csproj.GenerateResource.Cache
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\obj\x86\Debug\CTSACG.csprojResolveAssemblyReference.cache
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\Newtonsoft.Json.dll
+C:\Longbow Projects\TGV\CGS\CTSACG\CTSACG\bin\Debug\Newtonsoft.Json.xml
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\CTSACG.exe.config
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG.exe
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG.pdb
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\CTSACG.exe
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\CTSACG.pdb
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\DFLicenseControl.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\DFMonitoringClient.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\EltraSistemi.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\LBSC.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\Newtonsoft.Json.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\PCSC.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\SAVESC.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\TicketHandler.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\TNGSC.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\XFDevice.BarcodeScanner.HF560.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\XFUtility.Barcode.dll
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\Newtonsoft.Json.xml
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\bin\Debug\XFDevice.BarcodeScanner.HF560.pdb
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG.csprojResolveAssemblyReference.cache
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\MainWindow2.baml
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\MainWindow.baml
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\App.baml
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\MainWindow2.g.cs
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\MainWindow.g.cs
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\View\ExitView.g.cs
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\View\EntryView.g.cs
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\App.g.cs
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG_Content.g.cs
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG_MarkupCompile.cache
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG_MarkupCompile.lref
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\Dictionary.baml
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\View\ExitView.baml
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\View\EntryView.baml
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG.g.resources
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG.Properties.Resources.resources
+C:\Longbow Projects\TGV\CGS\Version 2\CTSACG\CTSACG\obj\x86\Debug\CTSACG.csproj.GenerateResource.Cache

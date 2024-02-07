@@ -1,0 +1,115 @@
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\MainWindow.baml
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\View\EntryView.baml
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\MainWindow.g.cs
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\View\EntryView.g.cs
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG_MarkupCompile.cache
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG_MarkupCompile.lref
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\bin\Debug\KLTACG.dll.config
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\bin\Debug\KLTACG.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\bin\Debug\KLTACG.pdb
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\bin\Debug\DFLicenseControl.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\bin\Debug\DFMonitoringClient.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\bin\Debug\XFUtility.Barcode.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.g.resources
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.Properties.Resources.resources
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.csproj.GenerateResource.Cache
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.pdb
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\KLTACG.exe.config
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.exe
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.pdb
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\MainWindow.baml
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\View\EntryView.baml
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\App.baml
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\MainWindow.g.cs
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\View\EntryView.g.cs
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\App.g.cs
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG_Content.g.cs
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG_MarkupCompile.cache
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG_MarkupCompile.lref
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\KLTACG.exe
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\KLTACG.pdb
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\DFLicenseControl.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\DFMonitoringClient.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\EltraSistemi.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\LBSC.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\PCSC.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\SAVESC.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\TicketHandler.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\TNGSC.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\XFUtility.Barcode.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\Dictionary.baml
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.g.resources
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.Properties.Resources.resources
+C:\Users\heansin.tan\Downloads\KLTower Gate New\KLTower Gate\KLTACG\obj\x86\Debug\KLTACG.csproj.GenerateResource.Cache
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\KLTACG.exe.config
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\KLTACG.exe
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\KLTACG.pdb
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\DFLicenseControl.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\DFMonitoringClient.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\EltraSistemi.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\LBSC.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\PCSC.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\SAVESC.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\TicketHandler.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\TNGSC.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\XFUtility.Barcode.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\bin\Debug\Newtonsoft.Json.dll
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow.baml
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\App.baml
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow.g.cs
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\EntryView.g.cs
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\App.g.cs
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG_Content.g.cs
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG_MarkupCompile.cache
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG_MarkupCompile.lref
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\Dictionary.baml
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\EntryView.baml
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.g.resources
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.Properties.Resources.resources
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.csproj.GenerateResource.Cache
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.exe
+C:\Users\heansin.tan\Desktop\KL Tower\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.pdb
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\KLTACG.exe.config
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.exe
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.pdb
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\KLTACG.exe
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\KLTACG.pdb
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\DFLicenseControl.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\DFMonitoringClient.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\EltraSistemi.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\LBSC.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\PCSC.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\SAVESC.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\TicketHandler.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\TNGSC.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\XFDevice.Honeywell.Vuquest.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\XFUtility.Barcode.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\Newtonsoft.Json.dll
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\App.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\EntryView.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\App.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG_Content.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG_MarkupCompile.cache
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG_MarkupCompile.lref
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\Dictionary.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\EntryView.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.g.resources
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.Properties.Resources.resources
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\KLTACG.csproj.GenerateResource.Cache
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow2.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\MainWindow2.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\ExitView.g.cs
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\obj\x86\Debug\View\ExitView.baml
+E:\LB-KLTOWER\KLTower Gate 20180920\KLTACG\bin\Debug\TGVACG.exe.config
