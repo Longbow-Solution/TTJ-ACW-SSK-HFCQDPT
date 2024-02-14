@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\obj\x86\Release\
+D:\LB Project\TTJ-ACW-SSK-HFCQDPT\ACWSSK\obj\x86\Release\
 ACWSSK
 none
 false
 TRACE
-C:\Users\yeekian.kong\Desktop\Car Wash\Backup live semabok - Include Pentamaster\ACWSSK_HF_QD_v1_3_11\ACWSSK_HF_QD\ACWSSK\App.xaml
+D:\LB Project\TTJ-ACW-SSK-HFCQDPT\ACWSSK\App.xaml
 23-1044663447
 8-1823391987
 73-835007394
-301349062773
+301861669170
 DataTemplate.xaml;MainWindow.xaml;Style.xaml;View\ErrorView.xaml;View\HomeView.xaml;View\InServiceView.xaml;View\LoadingAnimation\LoadingCircleAnimation.xaml;View\MainIdleView.xaml;View\MaintenanceView.xaml;View\OfflineView.xaml;View\PaymentSelectionView.xaml;View\PaymentView.xaml;View\Payment\PaymentFailedView.xaml;View\Payment\PaymentPageView.xaml;View\Payment\PaymentProcessView.xaml;View\Payment\PaymentReceiptQR.xaml;View\Payment\PaymentServiceView.xaml;View\Payment\PaymentSuccessView.xaml;View\Payment\PaymentTimeoutView.xaml;View\ServiceSelectionView.xaml;View\ServicingLoginView.xaml;View\ServicingView.xaml;View\SystemCheckView.xaml;
 
 False

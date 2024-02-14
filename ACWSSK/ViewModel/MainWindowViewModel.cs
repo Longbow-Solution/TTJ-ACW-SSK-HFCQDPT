@@ -586,7 +586,7 @@ namespace ACWSSK.ViewModel
                 Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("EasyMaintenance Starting..."), TraceCategory);
 
                 serviceClickAttempt++;
-                if (serviceClickAttempt >= 5)
+                if (serviceClickAttempt >= 10)
                 {
                     serviceClickAttempt = 0;
                     Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("EasyMaintenance action = Servicing Mode"), TraceCategory);

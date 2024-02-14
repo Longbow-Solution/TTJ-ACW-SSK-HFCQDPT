@@ -213,7 +213,7 @@ namespace ACWSSK.ViewModel
                 Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("CancelMaintenancebwTimer Starting..."), TraceCategory);
 
                 this._stopWithAction = stopWithAction;
-                idleDuration = 180000 / 1000;
+                idleDuration = 30000 / 1000;
 
                 if (bwMaintenanceTimer.IsBusy && bwMaintenanceTimer.WorkerSupportsCancellation)
                     bwMaintenanceTimer.CancelAsync();
@@ -307,7 +307,7 @@ namespace ACWSSK.ViewModel
 
                 this._stopWithAction = true;
 
-                idleDuration = 180000 / 1000;
+                idleDuration = 30000 / 1000;
                 idleDuration += 10;
                 if (this.bwMaintenanceAction != null)
                     this.bwMaintenanceAction = null;
@@ -332,7 +332,7 @@ namespace ACWSSK.ViewModel
             {
                 //Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ResetTimer Starting..."), traceCategory);
 
-                idleDuration = 180000 / 1000;
+                idleDuration = 30000 / 1000;
                 idleDuration += 10;
                 _stopWithAction = true;
                 if (this.bwMaintenanceAction != null)
@@ -359,7 +359,7 @@ namespace ACWSSK.ViewModel
             try
             {
                 Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, "bwMaintenanceTimer_DoWork Starting...", TraceCategory);
-                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("bwMaintenanceTimer_DoWork [Duration]= {0}", 180000), TraceCategory);
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("bwMaintenanceTimer_DoWork [Duration]= {0}", 30000), TraceCategory);
 
 
                 BackgroundWorker bw = sender as BackgroundWorker;

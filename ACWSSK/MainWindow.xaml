@@ -76,7 +76,7 @@
                     <TextBlock DockPanel.Dock="Right" Text="{Binding CurrentDateString}" Style="{StaticResource mainScreenFooter}" Margin="0,0,30,0" HorizontalAlignment="Right"/>
                 </DockPanel>
 
-                <Button Grid.Row="1" Style="{StaticResource TransparentButton}" Width="100" HorizontalAlignment="Right" Margin="0, 0, 25, 0" Command="{Binding EasyMaintenanceCommand}"/>
+                <Button Grid.Row="1" Style="{StaticResource TransparentButton}" Width="35" HorizontalAlignment="Right" Margin="0, 0, 25, 15" Command="{Binding EasyMaintenanceCommand}"/>
             </Grid>
 
         </Grid>
