@@ -1063,18 +1063,17 @@ namespace ACWSSK.ViewModel
 
                     StartTransaction();
 
-                    decimal total = Convert.ToDecimal(Total);
-                    int convertedTotal = (int)(total);
+                    //decimal total = Convert.ToDecimal(Total);
+                    //int convertedTotal = (int)(total);
 
-                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformAppPayment 1"), TraceCategory);
+                    int convertedTotal = (int)(Total * 100);
+                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("convertedTotal = {0}", convertedTotal), TraceCategory);
 
                     ACWAppAPI.ACWAppAPIResponse appApiResponse;
                     ACWAppAPI.ACWAppAPIResponseFailed appApiResponseFailed;
                     if (_AppApiResponse != null)
                         _AppApiResponse = null;
                     _AppApiResponse = new ACWAppAPI.ACWAppAPIResponse();
-
-                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformAppPayment 2"), TraceCategory);
 
                     AppAPI app = new AppAPI();
                     if (app.SendAppApi(_barcodeScanned, convertedTotal, out appApiResponse, out appApiResponseFailed))
