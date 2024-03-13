@@ -314,53 +314,81 @@ namespace ACWSSK.App_Code
             return false;
         }
 
-		//public static List<DFMonitoringClient.DFDeviceStatus> GetSystemStatusMonitoring()
-		//{
-		//	List<DFMonitoringClient.DFDeviceStatus> param = new List<DFMonitoringClient.DFDeviceStatus>();
+        public static bool MapToAddressAndPin(int number, out int address, out int pin)
+        {
+            bool success = false;
+            address = 0;
+            pin = 0;
+            try
+            {
+                address = (number / 8) + 1;
+                int valueInGroup = number % 8;
 
-		//	string app = "";
-		//	#region Application Status
+                if (address > 1)
+                {
+                    valueInGroup -= 8;
+                }
+                pin = Math.Abs(valueInGroup);
 
-		//	DFMonitoringClient.DFSeverityLevel appSeverity = DFMonitoringClient.DFSeverityLevel.Info;
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("address: {0}", address), TraceCategory);
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("valueInGroup: {0}", valueInGroup), TraceCategory);
 
-		//	if (GeneralVar.stage == ACWSSK.App.eStage.Operation)
-		//		app = "Online";
-		//	else if (GeneralVar.stage == ACWSSK.App.eStage.OffLine)
-		//	{
-		//		app = "OutofService";
-		//		appSeverity = DFMonitoringClient.DFSeverityLevel.Error;
-		//	}
+                success = true;
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, string.Format("[ERROR] MapToAddressAndPin: {0}", ex.ToString()), TraceCategory);
+            }
+            return success;
+        }
 
-		//	param.Add(new DFMonitoringClient.DFDeviceStatus() { Code = "APP", Severity = appSeverity, Status = app, Details = "" });
+        //public static List<DFMonitoringClient.DFDeviceStatus> GetSystemStatusMonitoring()
+        //{
+        //	List<DFMonitoringClient.DFDeviceStatus> param = new List<DFMonitoringClient.DFDeviceStatus>();
 
-		//	#endregion
+        //	string app = "";
+        //	#region Application Status
+
+        //	DFMonitoringClient.DFSeverityLevel appSeverity = DFMonitoringClient.DFSeverityLevel.Info;
+
+        //	if (GeneralVar.stage == ACWSSK.App.eStage.Operation)
+        //		app = "Online";
+        //	else if (GeneralVar.stage == ACWSSK.App.eStage.OffLine)
+        //	{
+        //		app = "OutofService";
+        //		appSeverity = DFMonitoringClient.DFSeverityLevel.Error;
+        //	}
+
+        //	param.Add(new DFMonitoringClient.DFDeviceStatus() { Code = "APP", Severity = appSeverity, Status = app, Details = "" });
+
+        //	#endregion
 
 
-		//	string io = "", ioDetails = "";
-		//	#region IO Controller
+        //	string io = "", ioDetails = "";
+        //	#region IO Controller
 
-		//	DFMonitoringClient.DFSeverityLevel ioSeverity = DFMonitoringClient.DFSeverityLevel.Info;
+        //	DFMonitoringClient.DFSeverityLevel ioSeverity = DFMonitoringClient.DFSeverityLevel.Info;
 
-		//	if (!GeneralVar.IOBoardController_Enabled)
-		//	{
-		//		io = "Offline";
-		//		ioSeverity = DFMonitoringClient.DFSeverityLevel.None;
-		//	}
-		//	else if (!string.IsNullOrEmpty(GeneralVar.IOLastError))
-		//	{
-		//		io = GeneralVar.IOLastError;
-		//		ioSeverity = DFMonitoringClient.DFSeverityLevel.Error;
-		//	}
-		//	else
-		//		io = "Online";
+        //	if (!GeneralVar.IOBoardController_Enabled)
+        //	{
+        //		io = "Offline";
+        //		ioSeverity = DFMonitoringClient.DFSeverityLevel.None;
+        //	}
+        //	else if (!string.IsNullOrEmpty(GeneralVar.IOLastError))
+        //	{
+        //		io = GeneralVar.IOLastError;
+        //		ioSeverity = DFMonitoringClient.DFSeverityLevel.Error;
+        //	}
+        //	else
+        //		io = "Online";
 
-		//	io = string.Format("[{0}] {1}", "Adam", io);
-		//	param.Add(new DFMonitoringClient.DFDeviceStatus() { Code = "IO", Severity = ioSeverity, Status = io, Details = ioDetails });
+        //	io = string.Format("[{0}] {1}", "Adam", io);
+        //	param.Add(new DFMonitoringClient.DFDeviceStatus() { Code = "IO", Severity = ioSeverity, Status = io, Details = ioDetails });
 
-		//	#endregion
+        //	#endregion
 
-		//	return param;
-		//}
-       
+        //	return param;
+        //}
+
     }
 }

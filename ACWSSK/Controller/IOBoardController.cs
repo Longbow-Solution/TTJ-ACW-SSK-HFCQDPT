@@ -433,6 +433,34 @@ namespace ACWSSK.Controller
                         Thread.Sleep(100);
                         if (!controller.DigitalDataOut(Convert.ToByte(GeneralVar.IOBoard_Address), (Edam.eDigitalOutput)GeneralVar.IOBoard_DO_PentaWS1, false))
                             throw new Exception("Send IOBoard_DO_PentaWS1 Output Fail");
+
+                        int ioAddress = 0;
+                        int ioPin = 0;
+                        int languagePin = 0;
+                        switch (GeneralVar.LanguageSelected)
+                        {
+                            case "BM":
+                                languagePin = GeneralVar.IOBoard_DO_PentaBM;
+                                break;
+                            case "EN":
+                                languagePin = GeneralVar.IOBoard_DO_PentaBI;
+                                break;
+                            case "ZH":
+                                languagePin = GeneralVar.IOBoard_DO_PentaBC;
+                                break;
+                            default:
+                                languagePin = GeneralVar.IOBoard_DO_PentaBI;
+                                break;
+                        }
+
+                        GeneralFunc.MapToAddressAndPin(languagePin, out ioAddress, out ioPin);
+
+                        if (!controller.DigitalDataOut(Convert.ToByte(ioAddress), (Edam.eDigitalOutput)ioPin, true))
+                            throw new Exception("Send IOBoard_DO_Language Output Fail");
+
+                        Thread.Sleep(100);
+                        if (!controller.DigitalDataOut(Convert.ToByte(ioAddress), (Edam.eDigitalOutput)ioPin, false))
+                            throw new Exception("Send IOBoard_DO_Language Output Fail");
                     }
 
                     if (ResetPassCounter > 0)

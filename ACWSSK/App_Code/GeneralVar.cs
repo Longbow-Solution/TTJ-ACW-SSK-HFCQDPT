@@ -276,6 +276,21 @@ namespace ACWSSK.App_Code
             get { return int.Parse(ConfigurationManager.AppSettings["IOBoard_DO_PentaWS5"]); }
         }
 
+        public static int IOBoard_DO_PentaBM
+        {
+            get { return int.Parse(ConfigurationManager.AppSettings["IOBoard_DO_PentaBM"]); }
+        }
+
+        public static int IOBoard_DO_PentaBI
+        {
+            get { return int.Parse(ConfigurationManager.AppSettings["IOBoard_DO_PentaBI"]); }
+        }
+
+        public static int IOBoard_DO_PentaBC
+        {
+            get { return int.Parse(ConfigurationManager.AppSettings["IOBoard_DO_PentaBC"]); }
+        }
+
         private static Exception _iobException;
         public static Exception IOBException
         {
@@ -814,6 +829,8 @@ namespace ACWSSK.App_Code
 			{"BCR01", "BCR: Failed to open port"},
 			{"BCR02", "BCR: Failed to set mode"}
 		};
+
+        public static string LanguageSelected = "BI";
 
 	}
 }

@@ -60,6 +60,7 @@ namespace IOBoard
 		}
 
 		#endregion
+
 		#region Contructor
 
 		public Edam()

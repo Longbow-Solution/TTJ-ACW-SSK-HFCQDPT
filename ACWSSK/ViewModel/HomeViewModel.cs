@@ -59,7 +59,7 @@ namespace ACWSSK.ViewModel
 				string uiCulture;
 				switch (language)
 				{
-					case "BM":
+					case "BM":                     
 						uiCulture = "ms-my";
 						break;
 					case "EN":
@@ -71,7 +71,8 @@ namespace ACWSSK.ViewModel
 					default:
                         uiCulture = "en-us";
 						break;
-				}       
+				}
+                GeneralVar.LanguageSelected = language;
                 ACWSSK.Properties.Resources.Culture = new System.Globalization.CultureInfo(uiCulture);
                 GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.ServiceSelection);
             }
