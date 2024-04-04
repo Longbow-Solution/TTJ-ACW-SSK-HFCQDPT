@@ -299,7 +299,10 @@ namespace ACWSSK.ViewModel
 		{
 			try
 			{
-                SetModuleStage(eModuleStage.Initialize);
+                Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                {
+                    SetModuleStage(eModuleStage.Initialize);
+                }));
 
                 if (timeRemainingTimer != null)
                     timeRemainingTimer = null;
@@ -518,6 +521,7 @@ namespace ACWSSK.ViewModel
                         vmComponentCheck.Success += componentCheckVM_Success;
                         vmComponentCheck.Failed += componentCheckVM_Failed;
                         vmComponentCheck.PerformCheck();
+                        
                         break;
                     case eModuleStage.OutOfService:
                         Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
@@ -586,7 +590,7 @@ namespace ACWSSK.ViewModel
                 Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("EasyMaintenance Starting..."), TraceCategory);
 
                 serviceClickAttempt++;
-                if (serviceClickAttempt >= 10)
+                if (serviceClickAttempt >= 5)
                 {
                     serviceClickAttempt = 0;
                     Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("EasyMaintenance action = Servicing Mode"), TraceCategory);
@@ -668,6 +672,7 @@ namespace ACWSSK.ViewModel
             }
         }
 
+        int waitCounter = 0;
         private void checkStateTimer_Elapsed(object sender, ElapsedEventArgs e)
         {
             try
@@ -703,7 +708,15 @@ namespace ACWSSK.ViewModel
                                 Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("checkStateTimer_Elapsed ACW Status : NormalStatus = {0}, TermStatus = {1}, ActiveStatus = {2}, ErrorWashStatus = {3}", GeneralVar.IOBoardCtrl.ACWNormalStatus, GeneralVar.IOBoardCtrl.ACWTermStatus, GeneralVar.IOBoardCtrl.ACWActiveStatus, GeneralVar.IOBoardCtrl.ACWErrorWashStatus), TraceCategory);
                                 if (GeneralVar.IOBoardCtrl.ACWNormalStatus && !GeneralVar.IOBoardCtrl.ACWTermStatus && !GeneralVar.IOBoardCtrl.ACWActiveStatus)
                                 {
-                                    SetModuleStage(eModuleStage.Home);
+                                    //Added 4/4/24
+                                    waitCounter++;
+                                    if (waitCounter < 30)
+                                        return;
+                                    else
+                                    {
+                                        waitCounter = 0;
+                                        SetModuleStage(eModuleStage.Home);
+                                    }
                                 }
                                 else if (GeneralVar.IOBoardCtrl.ACWErrorWashStatus)
                                 {
@@ -719,7 +732,14 @@ namespace ACWSSK.ViewModel
                                 Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("checkStateTimer_Elapsed ACW Status : MaintenanceErrorStatus = {0}, SensorObjectStatus = {1}", GeneralVar.IOBoardCtrl.ACWErrorOperationStatus, GeneralVar.IOBoardCtrl.ACWSensorObjectStatus), TraceCategory);
                                 if (!GeneralVar.IOBoardCtrl.ACWErrorOperationStatus && GeneralVar.IOBoardCtrl.ACWSensorObjectStatus)
                                 {
-                                    SetModuleStage(eModuleStage.Home);
+                                    waitCounter++;
+                                    if (waitCounter < 30)
+                                        return;
+                                    else
+                                    {
+                                        waitCounter = 0;
+                                        SetModuleStage(eModuleStage.Home);
+                                    }
                                 }
                                 else if (GeneralVar.IOBoardCtrl.ACWErrorOperationStatus) 
                                 {
@@ -734,7 +754,14 @@ namespace ACWSSK.ViewModel
                                 Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ACW Status : Error = {0}, SensorObjectStatus = {1}", GeneralVar.IOBoardCtrl.PMErrorWash, GeneralVar.IOBoardCtrl.PMWashing), TraceCategory);
                                 if (!GeneralVar.IOBoardCtrl.PMErrorWash && !GeneralVar.IOBoardCtrl.PMWashing)
                                 {
-                                    SetModuleStage(eModuleStage.Home);
+                                    waitCounter++;
+                                    if (waitCounter < 30)
+                                        return;
+                                    else
+                                    {
+                                        waitCounter = 0;
+                                        SetModuleStage(eModuleStage.Home);
+                                    }
                                 }
                                 else if (GeneralVar.IOBoardCtrl.PMErrorWash)
                                 {
