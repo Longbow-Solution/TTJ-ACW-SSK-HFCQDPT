@@ -420,12 +420,12 @@ namespace ACWSSK.Controller
                         Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ProcessIOBoardPT: Starting Car Wash Operation....."), TraceCategory);
                         EntryPassCounter--;
 
-                        //if (!controller.DigitalDataOut(Convert.ToByte(GeneralVar.IOBoard_Address), (Edam.eDigitalOutput)GeneralVar.IOBoard_DO_CarWashMachine_Channel, true))
-                        //    throw new Exception("Send IOBoard_DO_CarWashMachine_Channel Output Fail");
+                        if (!controller.DigitalDataOut(Convert.ToByte(GeneralVar.IOBoard_Address), (Edam.eDigitalOutput)GeneralVar.IOBoard_DO_CarWashMachine_Channel, true))
+                            throw new Exception("Send IOBoard_DO_CarWashMachine_Channel Output Fail");
 
-                        //Thread.Sleep(100);
-                        //if (!controller.DigitalDataOut(Convert.ToByte(GeneralVar.IOBoard_Address), (Edam.eDigitalOutput)GeneralVar.IOBoard_DO_CarWashMachine_Channel, false))
-                        //    throw new Exception("Send IOBoard_DO_CarWashMachine_Channel Output Fail");
+                        Thread.Sleep(100);
+                        if (!controller.DigitalDataOut(Convert.ToByte(GeneralVar.IOBoard_Address), (Edam.eDigitalOutput)GeneralVar.IOBoard_DO_CarWashMachine_Channel, false))
+                            throw new Exception("Send IOBoard_DO_CarWashMachine_Channel Output Fail");
 
                         if (!controller.DigitalDataOut(Convert.ToByte(GeneralVar.IOBoard_Address), (Edam.eDigitalOutput)GeneralVar.IOBoard_DO_PentaWS1, true))
                             throw new Exception("Send IOBoard_DO_PentaWS1 Output Fail");

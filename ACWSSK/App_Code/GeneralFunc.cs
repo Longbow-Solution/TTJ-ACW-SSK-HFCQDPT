@@ -324,14 +324,14 @@ namespace ACWSSK.App_Code
                 address = (number / 8) + 1;
                 int valueInGroup = number % 8;
 
-                if (address > 1)
-                {
-                    valueInGroup -= 8;
-                }
+                //if (address > 1)
+                //{
+                //    valueInGroup -= 8;
+                //}
                 pin = Math.Abs(valueInGroup);
 
                 Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("address: {0}", address), TraceCategory);
-                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("valueInGroup: {0}", valueInGroup), TraceCategory);
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("valueInGroup: {0}", pin), TraceCategory);
 
                 success = true;
             }

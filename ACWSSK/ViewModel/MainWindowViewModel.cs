@@ -442,7 +442,7 @@ namespace ACWSSK.ViewModel
                                     }
                                     else if (GeneralVar.ACWMachineModel == eCarWashMachine.PENTAMASTER)
                                     {
-                                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("SetModuleStage ACW Status : Error = {0}, SensorObjectStatus = {1}", GeneralVar.IOBoardCtrl.PMErrorWash, GeneralVar.IOBoardCtrl.PMWashing), TraceCategory);
+                                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("SetModuleStage ACW Status : Error = {0}, Washing = {1}", GeneralVar.IOBoardCtrl.PMErrorWash, GeneralVar.IOBoardCtrl.PMWashing), TraceCategory);
                                         if (!GeneralVar.IOBoardCtrl.PMErrorWash && GeneralVar.IOBoardCtrl.PMWashing)
                                         {
                                             stage = eModuleStage.InService;
@@ -733,7 +733,7 @@ namespace ACWSSK.ViewModel
                                 if (!GeneralVar.IOBoardCtrl.ACWErrorOperationStatus && GeneralVar.IOBoardCtrl.ACWSensorObjectStatus)
                                 {
                                     waitCounter++;
-                                    if (waitCounter < 30)
+                                    if (waitCounter < 4)
                                         return;
                                     else
                                     {
@@ -751,7 +751,7 @@ namespace ACWSSK.ViewModel
                             }
                             else if (GeneralVar.ACWMachineModel == eCarWashMachine.PENTAMASTER)
                             {
-                                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ACW Status : Error = {0}, SensorObjectStatus = {1}", GeneralVar.IOBoardCtrl.PMErrorWash, GeneralVar.IOBoardCtrl.PMWashing), TraceCategory);
+                                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ACW Status : Error = {0}, Washing = {1}", GeneralVar.IOBoardCtrl.PMErrorWash, GeneralVar.IOBoardCtrl.PMWashing), TraceCategory);
                                 if (!GeneralVar.IOBoardCtrl.PMErrorWash && !GeneralVar.IOBoardCtrl.PMWashing)
                                 {
                                     waitCounter++;

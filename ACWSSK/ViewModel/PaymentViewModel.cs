@@ -1281,6 +1281,19 @@ namespace ACWSSK.ViewModel
                 {
                     StopTxTimer();
 
+                    string replaceTID = "";
+                    int value = 0;
+                    if (!int.TryParse(lastSalesResponse.SaleTID.Trim(), out value))
+                        replaceTID = "-";
+                    else
+                        replaceTID = lastSalesResponse.SaleTID;
+
+                    
+                    //if (String.IsNullOrEmpty(lastSalesResponse.SaleTID.Trim()) || lastSalesResponse.SaleTID.Trim() == "" || lastSalesResponse.SaleTID.Trim() == " ")
+                    //    replaceTID = "-";
+                    //else
+                    //    replaceTID = lastSalesResponse.SaleTID;
+
                     string CCLog = string.Format(@"
                 CreditCardCallBack ****************************************
                 Status : {0}
@@ -1291,7 +1304,7 @@ namespace ACWSSK.ViewModel
                 RRN : {5}
                 HashPAN : {6}
                 END - CreditCardCallBack ****************************************",
-                lastSalesResponse.State.ToString(), lastSalesResponse.SaleTID, lastSalesResponse.MaskPAN, lastSalesResponse.CCSchema, lastSalesResponse.APPRCode, lastSalesResponse.RRN, lastSalesResponse.HashPAN);
+                lastSalesResponse.State.ToString(), replaceTID, lastSalesResponse.MaskPAN, lastSalesResponse.CCSchema, lastSalesResponse.APPRCode, lastSalesResponse.RRN, lastSalesResponse.HashPAN);
 
                     Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("CreditCardCallBack:- {0}", CCLog), TraceCategory);
 
@@ -1756,7 +1769,7 @@ namespace ACWSSK.ViewModel
                 string jsonResponse = "";
                 QRReceiptResponse qRReceiptResponse = null;
 
-                if (GeneralVar.ACWAPICtrl.GenerateQRReceipt("http://vps3.longbow.com.my/TJAPI/api/SSK/DoCreateReceiptUrl", qrReceiptRequest, 30000, out qRReceiptResponse, out jsonRequest, out jsonResponse, out err) && qRReceiptResponse != null)
+                if (GeneralVar.ACWAPICtrl.GenerateQRReceipt("http://124.217.251.14/TJAPI/api/SSK/DoCreateReceiptUrl", qrReceiptRequest, 30000, out qRReceiptResponse, out jsonRequest, out jsonResponse, out err) && qRReceiptResponse != null)
                 {
                     if (QRReceipt != null)
                         QRReceipt = null;
