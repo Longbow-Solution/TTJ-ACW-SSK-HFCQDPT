@@ -32,21 +32,27 @@ namespace ACWSSK.App_Code
             {
                 Trace.WriteLine("SendAppApi Starting...");
 
-                SendAppApiParam param = new SendAppApiParam(barcode, amount);
+                SendAppApiParam param = new SendAppApiParam(barcode, amount, GeneralVar.CurrentComponent.ComponentCode);
 
                 string requestBody = JsonConvert.SerializeObject(param);
 
+                string apiURl = string.Empty;
+                if (GeneralVar.ApplicationMode == AppMode.PROD)
+                    apiURl = GeneralVar.AppUrl;
+                else
+                    apiURl = "https://sb-api.lecshine.com/v1/open/scan-dynamic-payment";
+
                 Trace.WriteLine(requestBody);
-                Trace.WriteLine(string.Format("SendAppApi AppUrl = {0}", GeneralVar.AppUrl));
+                Trace.WriteLine(string.Format("SendAppApi AppUrl = {0}", apiURl));
                 Trace.WriteLine(string.Format("SendAppApi X_Client_ID = {0}", GeneralVar.X_Client_ID));
                 Trace.WriteLine(string.Format("SendAppApi X_Client_Secret = {0}", GeneralVar.X_Client_Secret));
                 Trace.WriteLine(string.Format("SendAppApi Cookie = {0}", GeneralVar.Cookie));
 
-                isSuccess = SendPostRequest(GeneralVar.AppUrl, requestBody, GeneralVar.X_Client_ID, GeneralVar.X_Client_Secret, GeneralVar.Cookie, out responseBody);
+                isSuccess = SendPostRequest(apiURl, requestBody, GeneralVar.X_Client_ID, GeneralVar.X_Client_Secret, GeneralVar.Cookie, out responseBody);
 
+                Trace.WriteLine(string.Format("SendAppApi responseBody = {0}", responseBody));
                 if (isSuccess)
                 {
-                    Trace.WriteLine(string.Format("SendAppApi responseBody = {0}", responseBody));
                     responseOut = JsonConvert.DeserializeObject<ACWAppAPI.ACWAppAPIResponse>(responseBody);
 
                     isSuccess = responseOut.item.Status.ToLower() == "success";
@@ -64,6 +70,55 @@ namespace ACWSSK.App_Code
             return isSuccess;
         }
 
+        public bool GetAppPriceAPI(string kioskId, out ACWAppAPI.GetKioskPriceResponse responseOut)
+        {
+            responseOut = new ACWAppAPI.GetKioskPriceResponse();
+            bool isSuccess = false;
+            string responseBody = string.Empty;
+
+            try
+            {
+                Trace.WriteLine("GetAppPriceAPI Starting...");
+
+                GetKioskPriceRequest param = new GetKioskPriceRequest
+                {
+                    branchKioskId = kioskId
+                };
+
+                string requestBody = JsonConvert.SerializeObject(param);
+
+                string apiURl = string.Empty;
+                if (GeneralVar.ApplicationMode == AppMode.PROD)
+                    apiURl = "https://api.lecshine.com/v1/open/branch-kiosk/get-kiosk-price";
+                else
+                    apiURl = "https://sb-api.lecshine.com/v1/open/branch-kiosk/get-kiosk-price";
+
+                Trace.WriteLine(requestBody);
+                Trace.WriteLine(string.Format("SendAppApi API URL = {0}", apiURl));
+                Trace.WriteLine(string.Format("SendAppApi X_Client_ID = {0}", GeneralVar.X_Client_ID));
+                Trace.WriteLine(string.Format("SendAppApi X_Client_Secret = {0}", GeneralVar.X_Client_Secret));
+                Trace.WriteLine(string.Format("SendAppApi Cookie = {0}", GeneralVar.Cookie));
+
+                isSuccess = SendPostRequest(apiURl, requestBody, GeneralVar.X_Client_ID, GeneralVar.X_Client_Secret, GeneralVar.Cookie, out responseBody);
+
+                Trace.WriteLine(string.Format("GetAppPriceAPI response = {0}", responseBody));
+                if (isSuccess)
+                {              
+                    responseOut = JsonConvert.DeserializeObject<ACWAppAPI.GetKioskPriceResponse>(responseBody);
+
+                    isSuccess = !string.IsNullOrEmpty(responseOut.item.branchKioskId);
+                }
+                else
+                    throw new Exception("API returned error");
+
+                Trace.WriteLine("GetAppPriceAPI Completed.");
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, String.Format("[Error] GetAppPriceAPI = {0}", ex.Message), "AppAPI");
+            }
+            return isSuccess;
+        }
 
         private bool SendPostRequest(string apiUrl, string requestBody, string clientId, string clientSecret, string cookie, out string responseBody)
         {

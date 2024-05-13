@@ -246,6 +246,7 @@ namespace ACWSSK.ViewModel
 
         private void PerformAppPayment(object arg)
         {
+
             GeneralVar.vmMainWindow.SetPaymentModuleStage(ePaymentMethod.App);
         }
 

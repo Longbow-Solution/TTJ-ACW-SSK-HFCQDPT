@@ -29,11 +29,27 @@ namespace ACWSSK.Model
 
         public class ACWAppAPIResponseFailed
         {
-            public string Code { get; set; }
-            public string Message { get; set; }
-            public string Debug { get; set; }
-            public string StackTrace { get; set; }
-
+            public Error error { get; set; }
         }
+
+        public class Error
+        {
+            public string code { get; set; }
+            public string message { get; set; }
+            public string debug { get; set; }
+            public string stackTrace { get; set; }
+        }
+
+        public class PriceItem
+        {
+            public string branchKioskId { get; set; }
+            public string price { get; set; }
+        }
+
+        public class GetKioskPriceResponse
+        {
+            public PriceItem item { get; set; }
+        }
+
     }
 }

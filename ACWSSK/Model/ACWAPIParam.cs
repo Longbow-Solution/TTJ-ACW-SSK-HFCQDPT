@@ -47,11 +47,13 @@ namespace ACWSSK.Model
     {
         private string _key = string.Empty;
         private int _amount = 0;
+        private string _branchKioskId = string.Empty;
 
-        public SendAppApiParam(string key, int amount)
+        public SendAppApiParam(string key, int amount, string kioskId)
         {
             _key = key;
             _amount = amount;
+            _branchKioskId = kioskId;
         }
 
         [JsonProperty("key")]
@@ -66,6 +68,25 @@ namespace ACWSSK.Model
         {
             get { return _amount; }
             set { _amount = value; }
+        }
+
+        [JsonProperty("branchKioskId")]
+        public string branchKioskId
+        {
+            get { return _branchKioskId; }
+            set { _branchKioskId = value; }
+        }
+    }
+
+    public class GetKioskPriceRequest
+    {
+        private string _branchKioskId;
+
+        [JsonProperty("branchKioskId")]
+        public string branchKioskId
+        {
+            get { return _branchKioskId; }
+            set { _branchKioskId = value; }
         }
     }
 }

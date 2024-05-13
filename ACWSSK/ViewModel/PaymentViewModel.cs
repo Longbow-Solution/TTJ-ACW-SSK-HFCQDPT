@@ -568,26 +568,42 @@ namespace ACWSSK.ViewModel
                     }
                     SetPaymentStage(ePaymentStage.eWalletPayment);
                 }
+
                 if (_SelectedPaymentMethod == ePaymentMethod.CCards)
                 {
                     if (GeneralVar.CreditCardTerminal_Enabled) { StartCCPayment(); }
                     SetPaymentStage(ePaymentStage.CardPayment);
                 }
+
                 if (_SelectedPaymentMethod == ePaymentMethod.App)
                 {
-                    if (GeneralVar.App_Enabled && GeneralVar.BarcodeReader_Enabled)
+                    if (GeneralVar.BarcodeReader_Enabled)
                     {
-                        //AttachKeyboardHook();
+                        ACWAppAPI.GetKioskPriceResponse priceResponse = new ACWAppAPI.GetKioskPriceResponse();
+                        AppAPI app = new AppAPI();                        
 
-                        Thread th = new Thread(() =>
+                        if (app.GetAppPriceAPI(GeneralVar.CurrentComponent.ComponentCode, out priceResponse))
                         {
-                            PerformAppPaymentInThread();
-                        });
-                        th.Start();
-                    }
-                    SetPaymentStage(ePaymentStage.AppPayment);
-                }
+                            TotalFare = Convert.ToDecimal(priceResponse.item.price) / 100;
+                            TotalTax = TotalFare * (GeneralVar.CurrentTaxRate.Value / 100);
+                            Total = TotalFare + TotalTax;
+                            Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Total Fare = {0}, Total Tax = {1}, Total Amount = {2}", TotalFare.ToString("#.00"), TotalTax.ToString("0.00"), Total.ToString("#.00")), TraceCategory);
+                            Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Tax Code = {0}, Tax Name = {1}, Tax Rate = {2}", GeneralVar.CurrentTaxRate.RateCode, GeneralVar.CurrentTaxRate.RateName, GeneralVar.CurrentTaxRate.Value.ToString("#.00")), TraceCategory);
 
+                            Thread th = new Thread(() =>
+                            {
+                                PerformAppPaymentInThread();
+                            });
+                            th.Start();
+
+                            SetPaymentStage(ePaymentStage.AppPayment);
+                        }
+                        else
+                        {
+                            GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.PaymentSelection);
+                        }
+                    }                  
+                }
 
                 if (GeneralVar.IOBoard_Enabled)
                 {
@@ -824,56 +840,54 @@ namespace ACWSSK.ViewModel
                 string paymentReferenceNo = null;
                 int paymentTypeId = 0;
 
-                if (_SelectedPaymentMethod == ePaymentMethod.eWallet)
+                try
                 {
-                    try
+                    if (string.IsNullOrEmpty(_barcodeScanned))
+                        continue;
+                    StopTxTimer();
+                    //DetachKeyboardHook();
+
+                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformEWalletPayment BarcodeNo: {0}", _barcodeScanned), TraceCategory);
+
+                    Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
                     {
-                        if (string.IsNullOrEmpty(_barcodeScanned))
-                            continue;
-                        StopTxTimer();
-                        //DetachKeyboardHook();
+                        SetPaymentStage(ePaymentStage.ProcessTransaction);
+                    }));
 
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformEWalletPayment BarcodeNo: {0}", _barcodeScanned), TraceCategory);
+                    StartTransaction();
 
-                        Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
-                        {
-                            SetPaymentStage(ePaymentStage.ProcessTransaction);
-                        }));
+                    eWalletPaymentType = LB_ipay88.Model.PaymentType.UnifiedScan;
+                    string prodDesc = "Auto-Car Wash";
+                    Guid obj = Guid.NewGuid();
+                    string referenceNoEW = _referenceNo;
+                    string email = GeneralVar.CurrentComponent.Email;
+                    string contactNumber = GeneralVar.CurrentComponent.Careline.Replace("+", "").Replace("-", "").Replace(" ", "");
+                    string userName = GeneralVar.ComponentCode;
+                    string conCatRemarks = _referenceNo;
 
-                        StartTransaction();
+                    decimal total = Convert.ToDecimal(Total);
+                    ClientRequestModel cOptional =
+                    ClientRequestModelBuilder.Create()
+                    .Amount(total)
+                    .SetMerchantKey(GeneralVar.CurrentComponent.EWalletMerchantKey)
+                    .Currency("MYR")
+                    .MerchantCode(GeneralVar.CurrentComponent.EWalletMerchantCode)
+                    .PaymentId(eWalletPaymentType)
+                    .ProdDesc(prodDesc)
+                    .RefNo(referenceNoEW)
+                    .TerminalID(GeneralVar.ComponentCode)
+                    .UserContact(contactNumber)
+                    .UserEmail(email)
+                    .UserName(userName)
+                    .xfield1(GeneralVar.CurrentArea.AreaCode)
+                    .xfield2(GeneralVar.ComponentCode)
+                    .BarcodeNo(_barcodeScanned)
+                    .Remark(conCatRemarks)
+                    .Build();
 
-                        eWalletPaymentType = LB_ipay88.Model.PaymentType.UnifiedScan;
-                        string prodDesc = "Auto-Car Wash";
-                        Guid obj = Guid.NewGuid();
-                        string referenceNoEW = _referenceNo;
-                        string email = GeneralVar.CurrentComponent.Email;
-                        string contactNumber = GeneralVar.CurrentComponent.Careline.Replace("+", "").Replace("-", "").Replace(" ", "");
-                        string userName = GeneralVar.ComponentCode;
-                        string conCatRemarks = _referenceNo;
+                    ClientResponseModel c = LB_ipay88.Utility.Sender.Payment.Pay(cOptional);
 
-                        decimal total = Convert.ToDecimal(Total);
-                        ClientRequestModel cOptional =
-                        ClientRequestModelBuilder.Create()
-                        .Amount(total)
-                        .SetMerchantKey(GeneralVar.CurrentComponent.EWalletMerchantKey)
-                        .Currency("MYR")
-                        .MerchantCode(GeneralVar.CurrentComponent.EWalletMerchantCode)
-                        .PaymentId(eWalletPaymentType)
-                        .ProdDesc(prodDesc)
-                        .RefNo(referenceNoEW)
-                        .TerminalID(GeneralVar.ComponentCode)
-                        .UserContact(contactNumber)
-                        .UserEmail(email)
-                        .UserName(userName)
-                        .xfield1(GeneralVar.CurrentArea.AreaCode)
-                        .xfield2(GeneralVar.ComponentCode)
-                        .BarcodeNo(_barcodeScanned)
-                        .Remark(conCatRemarks)
-                        .Build();
-
-                        ClientResponseModel c = LB_ipay88.Utility.Sender.Payment.Pay(cOptional);
-
-                        string EwalletLog = string.Format(@"
+                    string EwalletLog = string.Format(@"
                                                                 BarcodeCallBack ****************************************
                                                                 Status : {0}
                                                                 ErrDesc : {1}
@@ -887,146 +901,56 @@ namespace ACWSSK.ViewModel
                                                                 Requery : {9}
                                                                 PaymentName : {10}
                                                                 END - BarcodeCallBack ****************************************",
-                        c.Status, c.ErrDesc, c.TransId, c.RefNo, c.QRCode, c.QRValue, c.MerchantCode, c.PaymentId, c.Remark, c.Requery, LB_ipay88.Model.Payment.GetPaymentType(c.PaymentId).ToString());
+                    c.Status, c.ErrDesc, c.TransId, c.RefNo, c.QRCode, c.QRValue, c.MerchantCode, c.PaymentId, c.Remark, c.Requery, LB_ipay88.Model.Payment.GetPaymentType(c.PaymentId).ToString());
 
-                        EwalletResponse = c;
+                    EwalletResponse = c;
 
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("BarcodeCallBack:- {0}", EwalletLog), TraceCategory);
+                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("BarcodeCallBack:- {0}", EwalletLog), TraceCategory);
 
-                        if (c.TransId != null && c.Status == 1)
-                        {
-                            bool canGetDetails = GetPaymentDetails_EW(out paymentTypeId, out paymentReferenceNo, out paymentData);
-                            UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
-
-                            SetTrxStatus(true);
-                            PerformService(); //have button to print receipt
-                        }
-                        else if (c.Status != 1)
-                        {
-                            paymentTypeId = GeneralVar.DB_PaymentTypes.Where(p => p.PaymentTypeCode == "EWALLET").First().PaymentTypeId;
-                            UpdateTransaction(paymentTypeId, null, null, c.ErrDesc, "F");
-                            PrintReceipt(false, true, ePaymentMethod.eWallet);
-                        }
-
-                    }
-                    catch (Exception ex)
+                    if (c.TransId != null && c.Status == 1)
                     {
-                        GeneralVar.AlarmHandler.InsertAlarm(GeneralVar.AlarmHandler.GetAlarmCategoryId("GNR"), "E", ex.Message);
-                        UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, ex.Message.ToString(), "F");
+                        bool canGetDetails = GetPaymentDetails_EW(out paymentTypeId, out paymentReferenceNo, out paymentData);
+                        UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
+
+                        SetTrxStatus(true);
+                        PerformService(); //have button to print receipt
+                    }
+                    else if (c.Status != 1)
+                    {
+                        paymentTypeId = GeneralVar.DB_PaymentTypes.Where(p => p.PaymentTypeCode == "EWALLET").First().PaymentTypeId;
+                        UpdateTransaction(paymentTypeId, null, null, c.ErrDesc, "F");
                         PrintReceipt(false, true, ePaymentMethod.eWallet);
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, string.Format("[Error] PerformPayment: {0}", ex.ToString()), TraceCategory);
                     }
-                    finally
-                    {
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Ewallet End Loop"), TraceCategory);
-                        loop = false;
 
-                        //if (QRReceipt != null)
-                        //{
-                        //    Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
-                        //    {
-                        //        SetPaymentStage(ePaymentStage.ReceiptQR);
-                        //    }));
-                        //    _WaitDone.Reset();
-                        //    _WaitDone.WaitOne(20000);
-                        //}
-                        
-                        //Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
-                        //{
-                        //    GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.Home);
-                        //}));
-
-                        //GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.Home);
-                    }
                 }
-                else if (_SelectedPaymentMethod == ePaymentMethod.App)
+                catch (Exception ex)
                 {
-                    try
-                    {
-                        //revert
-                        if (string.IsNullOrEmpty(_barcodeScanned))
-                            continue;
-                        StopTxTimer();
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformAppPayment BarcodeNo: {0}", _barcodeScanned), TraceCategory);
+                    GeneralVar.AlarmHandler.InsertAlarm(GeneralVar.AlarmHandler.GetAlarmCategoryId("GNR"), "E", ex.Message);
+                    UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, ex.Message.ToString(), "F");
+                    PrintReceipt(false, true, ePaymentMethod.eWallet);
+                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, string.Format("[Error] PerformPayment: {0}", ex.ToString()), TraceCategory);
+                }
+                finally
+                {
+                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Ewallet End Loop"), TraceCategory);
+                    loop = false;
 
-                        Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
-                        {
-                            SetPaymentStage(ePaymentStage.ProcessTransaction);
-                        }));
+                    //if (QRReceipt != null)
+                    //{
+                    //    Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                    //    {
+                    //        SetPaymentStage(ePaymentStage.ReceiptQR);
+                    //    }));
+                    //    _WaitDone.Reset();
+                    //    _WaitDone.WaitOne(20000);
+                    //}
 
-                        StartTransaction();
+                    //Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                    //{
+                    //    GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.Home);
+                    //}));
 
-                        decimal total = Convert.ToDecimal(Total);
-                        int convertedTotal = (int)(total * 100);
-
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformAppPayment 1"), TraceCategory);
-
-                        ACWAppAPI.ACWAppAPIResponse appApiResponse;
-                        ACWAppAPI.ACWAppAPIResponseFailed appApiResponseFailed;
-
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformAppPayment 2"), TraceCategory);
-
-                        if (GeneralVar.ApplicationAPI.SendAppApi(_barcodeScanned, convertedTotal, out appApiResponse, out appApiResponseFailed))
-                        {
-                            string LECSHINELog = string.Format(@"
-                                                                LECSHINEBarcodeCallBack ****************************************
-                                                                Id : {0}
-                                                                UserId : {1}
-                                                                WalletId : {2}
-                                                                ReferenceKey : {3}
-                                                                ReferenceId : {4}
-                                                                Amount : {5}
-                                                                Token : {6}
-                                                                Type : {7}
-                                                                PaymentType : {8}
-                                                                Status : {9}
-                                                                Remark : {10}
-                                                                TransactionAt : {11}
-                                                                END - LECSHINEBarcodeCallBack ****************************************",
-                         string.IsNullOrEmpty(_AppApiResponse.item.Id) ? string.Empty : _AppApiResponse.item.Id,
-                        string.IsNullOrEmpty(_AppApiResponse.item.UserId) ? string.Empty : _AppApiResponse.item.UserId,
-                        string.IsNullOrEmpty(_AppApiResponse.item.WalletId) ? string.Empty : _AppApiResponse.item.WalletId,
-                        string.IsNullOrEmpty(_AppApiResponse.item.ReferenceKey) ? string.Empty : _AppApiResponse.item.ReferenceKey,
-                        string.IsNullOrEmpty(_AppApiResponse.item.ReferenceId) ? string.Empty : _AppApiResponse.item.ReferenceId,
-                        string.IsNullOrEmpty(_AppApiResponse.item.Amount.ToString()) ? string.Empty : _AppApiResponse.item.Amount.ToString(),
-                        string.IsNullOrEmpty(_AppApiResponse.item.Token) ? string.Empty : _AppApiResponse.item.Token,
-                        string.IsNullOrEmpty(_AppApiResponse.item.Type) ? string.Empty : _AppApiResponse.item.Type,
-                        string.IsNullOrEmpty(_AppApiResponse.item.PaymentType) ? string.Empty : _AppApiResponse.item.PaymentType,
-                        string.IsNullOrEmpty(_AppApiResponse.item.Status) ? string.Empty : _AppApiResponse.item.Status,
-                        string.IsNullOrEmpty(_AppApiResponse.item.Remark) ? string.Empty : _AppApiResponse.item.Remark,
-                        string.IsNullOrEmpty(_AppApiResponse.item.TransactionAt) ? string.Empty : _AppApiResponse.item.TransactionAt);
-
-                            Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("LECSHINEBarcodeCallBack:- {0}", LECSHINELog), TraceCategory);
-
-                            _AppApiResponse = appApiResponse;
-                            bool canGetDetails = GetPaymentDetails_App(out paymentTypeId, out paymentReferenceNo, out paymentData);
-                            UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
-
-                            SetTrxStatus(true);
-                            PerformService();                         
-                        }
-                        else
-                        {
-                            Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("[Error] PerformAppPayment Lecshine APP: Code = {0}, Message = {1} ", appApiResponseFailed.Code, appApiResponseFailed.Message), TraceCategory);
-
-                            paymentTypeId = GeneralVar.DB_PaymentTypes.Where(p => p.PaymentTypeCode == "LECSHINEAPP").First().PaymentTypeId;
-                            _AppApiResponse = appApiResponse;
-                            UpdateTransaction(paymentTypeId, null, null, appApiResponseFailed.Code, "F");
-                            PrintReceipt(false, true, ePaymentMethod.App, appApiResponseFailed.Code);
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        GeneralVar.AlarmHandler.InsertAlarm(GeneralVar.AlarmHandler.GetAlarmCategoryId("GNR"), "E", ex.ToString());
-                        UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, ex.Message.ToString(), "F");
-                        PrintReceipt(false, true, ePaymentMethod.App);
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, string.Format("[Error] PerformPayment: {0}", ex.ToString()), TraceCategory);
-                    }
-                    finally
-                    {
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("App End Loop"), TraceCategory);
-                        loop = false;
-                    }
+                    //GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.Home);
                 }
             }
         }
@@ -1116,12 +1040,12 @@ namespace ACWSSK.ViewModel
                     }
                     else
                     {
-                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("[Error] PerformAppPayment Lecshine APP: Code = {0}, Message = {1} ", appApiResponseFailed.Code, appApiResponseFailed.Message), TraceCategory);
+                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("[Error] PerformAppPayment Lecshine APP: Code = {0}, Message = {1} ", appApiResponseFailed.error.code, appApiResponseFailed.error.message), TraceCategory);
 
                         paymentTypeId = GeneralVar.DB_PaymentTypes.Where(p => p.PaymentTypeCode == "LECSHINEAPP").First().PaymentTypeId;
                         _AppApiResponse = appApiResponse;
-                        UpdateTransaction(paymentTypeId, null, null, appApiResponseFailed.Code, "F");
-                        PrintReceipt(false, true, ePaymentMethod.App, appApiResponseFailed.Code);
+                        UpdateTransaction(paymentTypeId, null, null, appApiResponseFailed.error.code, "F");
+                        PrintReceipt(false, true, ePaymentMethod.App, appApiResponseFailed.error.code);
                     }
                 }
                 catch (Exception ex)
@@ -1530,6 +1454,20 @@ namespace ACWSSK.ViewModel
             return price;
         }
 
+        private decimal GetAppPrice()
+        {
+            decimal appPrice = 0m;
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, string.Format("[Error] GetAppPrice: {0}", ex.ToString()), TraceCategory);
+            }
+            return appPrice;
+        }
+
         private void PerformService()
         {
             try
@@ -1878,8 +1816,8 @@ namespace ACWSSK.ViewModel
                 string sT = GeneralVar.CurrentTaxRate.Value.ToString("0.00") + "%";
                 string tax = TotalTax.ToString("0.00");
                 string ta = Total.ToString("#.00");
-                string careline = string.IsNullOrEmpty(GeneralVar.CurrentComponent.Careline) ? " " : GeneralVar.CurrentComponent.Careline;
-                string email = string.IsNullOrEmpty(GeneralVar.CurrentComponent.Email) ? " " : GeneralVar.CurrentComponent.Email;
+                string careline = string.IsNullOrEmpty(GeneralVar.CurrentComponent.Careline) ? "-" : GeneralVar.CurrentComponent.Careline;
+                string email = string.IsNullOrEmpty(GeneralVar.CurrentComponent.Email) ? "-" : GeneralVar.CurrentComponent.Email;
 
                 if (paymentMethod == ePaymentMethod.eWallet)
                 {
@@ -2017,8 +1955,8 @@ namespace ACWSSK.ViewModel
                             TA = ta,
                             CCCardType = cCCardType,
                             CCCardNo = cCCardNo,
-                            CCTerminalId = cCTerminalId,
                             CCRefNo = cCRefNo,
+                            CCTerminalId = cCTerminalId,
                             CCApprCode = cCApprCode,
                             CCHashPAN = cCHashPAN,
                             CCRespCode = cCRespCode,
@@ -2067,7 +2005,9 @@ namespace ACWSSK.ViewModel
                             Id = id,
                             UserId = userId,
                             WalletId = walletId,
-                            ReferenceKey = referenceKey
+                            ReferenceKey = referenceKey,
+                            Careline = careline,
+                            Email = email
                         };
                         qrReceiptRequest.ByApp.Add(app);
                     }
@@ -2090,7 +2030,10 @@ namespace ACWSSK.ViewModel
                             ST = sT,
                             Tax = tax,
                             TA = ta,
-                            Code = code
+                            Code = code,
+                            EWPaymentType = "LecShine App",
+                            Careline = careline,
+                            Email = email
                         };
                         qrReceiptRequest.ByAppFailed.Add(app);
                     }
@@ -2153,7 +2096,7 @@ namespace ACWSSK.ViewModel
                 if (QRReceipt != null)
                     QRReceipt = null;
 
-                if (GeneralVar.ACWAPICtrl.GenerateQRReceipt("http://vps3.longbow.com.my/TJAPI/api/SSK/DoCreateReceiptUrl", qrReceiptRequest, 30000, out qRReceiptResponse, out jsonRequest, out jsonResponse, out err) && qRReceiptResponse != null)
+                if (GeneralVar.ACWAPICtrl.GenerateQRReceipt("http://124.217.251.14/TJAPI/api/SSK/DoCreateReceiptUrl", qrReceiptRequest, 30000, out qRReceiptResponse, out jsonRequest, out jsonResponse, out err) && qRReceiptResponse != null)
                 {
                     QRReceipt = new BitmapImage();
                     QRCodeGenerator qrGenerator = new QRCodeGenerator();
@@ -2280,7 +2223,7 @@ namespace ACWSSK.ViewModel
                         #region Credit Cards
 
                         Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformCCTerminalPayment..."), TraceCategory);
-
+                        
                         lastSalesResponse = new XFDevice.ECPIIntegration.ECPIHelper.SalesResponse();
                         lastSalesResponse.MaskPAN = "552115******5250";
                         lastSalesResponse.CCSchema = XFDevice.ECPIIntegration.ECPIHelper.eCreditCardSChema.VISA;
@@ -2403,7 +2346,7 @@ namespace ACWSSK.ViewModel
                         #region Credit Cards
 
                         Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("PerformCCTerminalPayment..."), TraceCategory);
-
+                        StartTransaction();
                         lastSalesResponse = new XFDevice.ECPIIntegration.ECPIHelper.SalesResponse();
                         lastSalesResponse.MaskPAN = "552115******5255";
                         lastSalesResponse.CCSchema = XFDevice.ECPIIntegration.ECPIHelper.eCreditCardSChema.AMEX;
