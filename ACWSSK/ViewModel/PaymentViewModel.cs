@@ -584,9 +584,13 @@ namespace ACWSSK.ViewModel
 
                         if (app.GetAppPriceAPI(GeneralVar.CurrentComponent.ComponentCode, out priceResponse))
                         {
-                            TotalFare = Convert.ToDecimal(priceResponse.item.price) / 100;
-                            TotalTax = TotalFare * (GeneralVar.CurrentTaxRate.Value / 100);
-                            Total = TotalFare + TotalTax;
+                            if (!string.IsNullOrEmpty(priceResponse.item.branchKioskId))
+                            {
+                                TotalFare = Convert.ToDecimal(priceResponse.item.price) / 100;
+                                TotalTax = TotalFare * (GeneralVar.CurrentTaxRate.Value / 100);
+                                Total = TotalFare + TotalTax;
+                            }
+                            
                             Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Total Fare = {0}, Total Tax = {1}, Total Amount = {2}", TotalFare.ToString("#.00"), TotalTax.ToString("0.00"), Total.ToString("#.00")), TraceCategory);
                             Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Tax Code = {0}, Tax Name = {1}, Tax Rate = {2}", GeneralVar.CurrentTaxRate.RateCode, GeneralVar.CurrentTaxRate.RateName, GeneralVar.CurrentTaxRate.Value.ToString("#.00")), TraceCategory);
 
@@ -596,11 +600,17 @@ namespace ACWSSK.ViewModel
                             });
                             th.Start();
 
-                            SetPaymentStage(ePaymentStage.AppPayment);
+                            Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                            {
+                                SetPaymentStage(ePaymentStage.AppPayment);
+                            }));                          
                         }
                         else
                         {
-                            GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.PaymentSelection);
+                            Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                            {
+                                GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.PaymentSelection);
+                            }));                           
                         }
                     }                  
                 }
@@ -1237,7 +1247,7 @@ namespace ACWSSK.ViewModel
                         SetPaymentStage(ePaymentStage.ProcessTransaction);
                         StartTransaction();
 
-                        bool canGetDetails = GetPaymentDetails_CC(out paymentTypeId, out paymentReferenceNo, out paymentData);
+                        bool canGetDetails = GetPaymentDetails_CC(replaceTID, out paymentTypeId, out paymentReferenceNo, out paymentData);
                         UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
 
                         SetTrxStatus(true);
@@ -1276,7 +1286,7 @@ namespace ACWSSK.ViewModel
             }
         }
 
-        private bool GetPaymentDetails_CC(out int paymentTypeId, out string paymentReferenceNo, out string paymentReferenceName)
+        private bool GetPaymentDetails_CC(string replaceTID, out int paymentTypeId, out string paymentReferenceNo, out string paymentReferenceName)
         {
             try
             {
@@ -1299,7 +1309,7 @@ namespace ACWSSK.ViewModel
                     string.IsNullOrEmpty(lastSalesResponse.MaskPAN) ? string.Empty : lastSalesResponse.MaskPAN,
                     string.IsNullOrEmpty(lastSalesResponse.APPRCode) ? string.Empty : lastSalesResponse.APPRCode,
                     lastSalesResponse.CCSchema.ToString(),
-                    string.IsNullOrEmpty(lastSalesResponse.SaleTID) ? string.Empty : lastSalesResponse.SaleTID,
+                    replaceTID,
                     string.IsNullOrEmpty(lastSalesResponse.RRN) ? string.Empty : lastSalesResponse.RRN,
                     string.IsNullOrEmpty(lastSalesResponse.HashPAN) ? string.Empty : lastSalesResponse.HashPAN,
                     lastSalesResponse.State.ToString()
@@ -2257,7 +2267,7 @@ namespace ACWSSK.ViewModel
                             SetPaymentStage(ePaymentStage.ProcessTransaction);
                             StartTransaction();
                             System.Threading.Thread.Sleep(3000);
-                            bool canGetDetails = GetPaymentDetails_CC(out paymentTypeId, out paymentReferenceNo, out paymentData);
+                            bool canGetDetails = GetPaymentDetails_CC("NA", out paymentTypeId, out paymentReferenceNo, out paymentData);
                             UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
 
                             SetTrxStatus(true);
@@ -2380,7 +2390,7 @@ namespace ACWSSK.ViewModel
                             SetPaymentStage(ePaymentStage.ProcessTransaction);
                             StartTransaction();
                             System.Threading.Thread.Sleep(3000);
-                            bool canGetDetails = GetPaymentDetails_CC(out paymentTypeId, out paymentReferenceNo, out paymentData);
+                            bool canGetDetails = GetPaymentDetails_CC("NA", out paymentTypeId, out paymentReferenceNo, out paymentData);
                             UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
 
                             SetTrxStatus(true);
@@ -2480,23 +2490,32 @@ namespace ACWSSK.ViewModel
         void Cancel()
         {
             StopTxTimer();
-            if (_SelectedPaymentMethod == ePaymentMethod.eWallet || _SelectedPaymentMethod == ePaymentMethod.App)
-            {
-                IsEwalletCancel = true;
-                //if (GeneralVar.EWallet_Enabled && GeneralVar.BarcodeReader_Enabled) { DetachKeyboardHook(); }
 
-                waitBarcode.Set();
-            }
-            else
+            GeneralVar.vmMainWindow.ShowLoading = Visibility.Visible;
+            Thread t = new Thread(() =>
             {
-                if (GeneralVar.CreditCardTerminal_Enabled)
+                if (_SelectedPaymentMethod == ePaymentMethod.eWallet || _SelectedPaymentMethod == ePaymentMethod.App)
                 {
-                    IsCCCancel = true;
-                    GeneralVar.CoherantHandler.CancelSales();
-                }
-            }
+                    IsEwalletCancel = true;
+                    //if (GeneralVar.EWallet_Enabled && GeneralVar.BarcodeReader_Enabled) { DetachKeyboardHook(); }
 
-            GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.Home);
+                    waitBarcode.Set();
+                    Thread.Sleep(2000);
+                }
+                else
+                {
+                    if (GeneralVar.CreditCardTerminal_Enabled)
+                    {
+                        IsCCCancel = true;
+                        GeneralVar.CoherantHandler.CancelSales();
+                        Thread.Sleep(8000);
+                    }
+                }
+                
+                GeneralVar.vmMainWindow.ShowLoading = Visibility.Collapsed;
+                GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.Home);
+            });
+            t.Start();                   
         }
 
         void CancelPayment()

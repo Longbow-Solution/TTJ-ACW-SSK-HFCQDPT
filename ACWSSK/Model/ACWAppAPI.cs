@@ -32,7 +32,18 @@ namespace ACWSSK.Model
             public Error error { get; set; }
         }
 
+        public class ACWAppAPISandboxResponseFailed
+        {
+            public SBError error { get; set; }
+        }
+
         public class Error
+        {
+            public string code { get; set; }
+            public string message { get; set; }
+        }
+
+        public class SBError
         {
             public string code { get; set; }
             public string message { get; set; }

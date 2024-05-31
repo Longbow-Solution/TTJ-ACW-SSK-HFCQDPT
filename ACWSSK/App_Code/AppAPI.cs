@@ -106,7 +106,7 @@ namespace ACWSSK.App_Code
                 {              
                     responseOut = JsonConvert.DeserializeObject<ACWAppAPI.GetKioskPriceResponse>(responseBody);
 
-                    isSuccess = !string.IsNullOrEmpty(responseOut.item.branchKioskId);
+                    //isSuccess = !string.IsNullOrEmpty(responseOut.item.branchKioskId);
                 }
                 else
                     throw new Exception("API returned error");
