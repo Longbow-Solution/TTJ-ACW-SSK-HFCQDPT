@@ -736,4 +736,3 @@ D:\LB Project\TTJ-ACW-SSK-HFCQDPT\ACWSSK\obj\x86\Release\zh-cn\ACWSSK.resources.
 D:\LB Project\TTJ-ACW-SSK-HFCQDPT\ACWSSK\obj\x86\Release\ACWSSK.csproj.CopyComplete
 D:\LB Project\TTJ-ACW-SSK-HFCQDPT\ACWSSK\obj\x86\Release\ACWSSK.exe
 D:\LB Project\TTJ-ACW-SSK-HFCQDPT\ACWSSK\obj\x86\Release\ACWSSK.pdb
-D:\LB Project\TTJ-ACW-SSK-HFCQDPT\ACWSSK\obj\x86\Release\ACWSSK.csprojAssemblyReference.cache

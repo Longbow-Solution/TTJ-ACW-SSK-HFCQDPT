@@ -164,11 +164,11 @@ namespace ACWSSK.ViewModel
 
                 //bool valid = GeneralVar.user.UserAuthentication(Username, Password, out _ValidUser, out _ValidPassword, out ValidAccessRight, out ValidCompanyComponent, "ManageLoginAuth");
                 bool valid = false;
-                if (Username == "sysadmin" && Password == "sysadmin")
+                if (Username == "123" && Password == "123")
                 {
                     valid = true;
                 }
-                else if (Username == "sysadmin")
+                else if (Username == "123")
                 {
                     _ValidUser = true;
                     _ValidPassword = false;
