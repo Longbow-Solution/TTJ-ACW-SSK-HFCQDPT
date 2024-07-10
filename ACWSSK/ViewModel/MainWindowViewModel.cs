@@ -521,7 +521,7 @@ namespace ACWSSK.ViewModel
                         vmComponentCheck.Success += componentCheckVM_Success;
                         vmComponentCheck.Failed += componentCheckVM_Failed;
                         vmComponentCheck.PerformCheck();
-                        
+
                         break;
                     case eModuleStage.OutOfService:
                         Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
