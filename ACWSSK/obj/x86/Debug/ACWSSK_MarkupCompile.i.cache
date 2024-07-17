@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Longbow Projects\ACW\ACWSSK\ACWSSK\obj\x86\Debug\
+C:\Users\tanmi\Downloads\TTJ-ACW-SSK-HFCQDPT-main\TTJ-ACW-SSK-HFCQDPT-main\ACWSSK\obj\x86\Debug\
 ACWSSK
 none
 false
 TRACE;DEBUG
-D:\Longbow Projects\ACW\ACWSSK\ACWSSK\App.xaml
-2-49070424
-101074815037
-21-603703039
-291370077746
-Dictionary.xaml;MainWindow.xaml;
+C:\Users\tanmi\Downloads\TTJ-ACW-SSK-HFCQDPT-main\TTJ-ACW-SSK-HFCQDPT-main\ACWSSK\App.xaml
+24-1279581318
+82008517122
+75808077007
+30-1232870955
+DataTemplate.xaml;MainWindow.xaml;Style.xaml;View\ErrorView.xaml;View\HomeView.xaml;View\InServiceView.xaml;View\LoadingAnimation\LoadingCircleAnimation.xaml;View\MainIdleView.xaml;View\MaintenanceView.xaml;View\OfflineView.xaml;View\PaymentSelectionView.xaml;View\PaymentView.xaml;View\Payment\PaymentFailedView.xaml;View\Payment\PaymentPageView.xaml;View\Payment\PaymentProcessView.xaml;View\Payment\PaymentReceiptQR.xaml;View\Payment\PaymentServiceView.xaml;View\Payment\PaymentSuccessView.xaml;View\Payment\PaymentTimeoutView.xaml;View\ServiceSelectionView.xaml;View\ServicingLoginView.xaml;View\ServicingView.xaml;View\ShowVideoView.xaml;View\SystemCheckView.xaml;
 
-False
+True
 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\obj\x86\Debug\
+C:\Users\tanmi\Downloads\TTJ-ACW-SSK-HFCQDPT-main\TTJ-ACW-SSK-HFCQDPT-main\ACWSSK\obj\x86\Debug\
 ACWSSK
 none
 false
 TRACE;DEBUG
-G:\Source Code\LecShine AutoWash\ACWSSK_HF_QD_v1_3_7\ACWSSK_HF_QD_v1_3_7\ACWSSK\App.xaml
-17859553843
+C:\Users\tanmi\Downloads\TTJ-ACW-SSK-HFCQDPT-main\TTJ-ACW-SSK-HFCQDPT-main\ACWSSK\App.xaml
+24-1279581318
 82008517122
-561310652168
-27779989862
-DataTemplate.xaml;MainWindow.xaml;Style.xaml;View\ErrorView.xaml;View\InServiceView.xaml;View\LoadingAnimation\LoadingCircleAnimation.xaml;View\MainIdleView.xaml;View\MaintenanceView.xaml;View\OfflineView.xaml;View\PaymentView.xaml;View\Payment\PaymentFailedView.xaml;View\Payment\PaymentPageView.xaml;View\Payment\PaymentProcessView.xaml;View\Payment\PaymentServiceView.xaml;View\Payment\PaymentSuccessView.xaml;View\Payment\PaymentTimeoutView.xaml;View\SystemCheckView.xaml;
+74-332337746
+30-1232870955
+DataTemplate.xaml;MainWindow.xaml;Style.xaml;View\ErrorView.xaml;View\HomeView.xaml;View\InServiceView.xaml;View\LoadingAnimation\LoadingCircleAnimation.xaml;View\MainIdleView.xaml;View\MaintenanceView.xaml;View\OfflineView.xaml;View\PaymentSelectionView.xaml;View\PaymentView.xaml;View\Payment\PaymentFailedView.xaml;View\Payment\PaymentPageView.xaml;View\Payment\PaymentProcessView.xaml;View\Payment\PaymentReceiptQR.xaml;View\Payment\PaymentServiceView.xaml;View\Payment\PaymentSuccessView.xaml;View\Payment\PaymentTimeoutView.xaml;View\ServiceSelectionView.xaml;View\ServicingLoginView.xaml;View\ServicingView.xaml;View\ShowVideoView.xaml;View\SystemCheckView.xaml;
 
 False
 

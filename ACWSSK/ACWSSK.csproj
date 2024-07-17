@@ -222,6 +222,9 @@
     <Compile Include="View\ServicingView.xaml.cs">
       <DependentUpon>ServicingView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ShowVideoView.xaml.cs">
+      <DependentUpon>ShowVideoView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\SystemCheckView.xaml.cs">
       <DependentUpon>SystemCheckView.xaml</DependentUpon>
     </Compile>
@@ -321,6 +324,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\ShowVideoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\SystemCheckView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -381,6 +388,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="View\BM.mp4" />
     <Resource Include="Resources\Images\CWICON.ico" />
     <Resource Include="CWICON.ico" />
     <Resource Include="Resources\Images\PaymentMethod\Lecshine Logo.png" />
@@ -404,6 +412,15 @@
     <Resource Include="Resources\Images\MaintenanceHeader.png" />
     <Resource Include="Resources\Images\Password.png" />
     <Resource Include="Resources\Images\Username.png" />
+    <Content Include="Resources\TetapJayaVideo\BM.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TetapJayaVideo\CH.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\TetapJayaVideo\EN.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\Videos\scan_code.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -48,6 +48,7 @@ namespace ACWSSK.ViewModel
         private ePaymentMethod _SelectedPaymentMethod;
         AutoResetEvent _WaitDone = new AutoResetEvent(false);
         AutoResetEvent _WaitPrint = new AutoResetEvent(false);
+        
         private ePaymentStage currentPaymentStage;
 
         #endregion
@@ -424,9 +425,18 @@ namespace ACWSSK.ViewModel
                     _Modules.Add(ePaymentStage.Success, new PaymentSuccessView());
                     _Modules.Add(ePaymentStage.PerformService, new PaymentServiceView());
                     _Modules.Add(ePaymentStage.ReceiptQR, new PaymentReceiptQR());
+                    _Modules.Add(ePaymentStage.ShowVideo, new ShowVideoView());
                 }
                 return _Modules;
             }
+        }
+
+        private string _ShowVideoUri;
+
+        public string ShowVideoUri
+        {
+            get { return _ShowVideoUri; }
+            set { _ShowVideoUri = value; OnPropertyChanged(nameof(ShowVideoUri)); }
         }
 
         #endregion
@@ -520,6 +530,14 @@ namespace ACWSSK.ViewModel
 
                 if (QRReceipt != null)
                     QRReceipt = null;
+
+                string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+                ShowVideoUri = GeneralVar.LanguageSelected == "BM" ? System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/BM.mp4"): 
+                    GeneralVar.LanguageSelected == "EN" ? System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/EN.mp4") : System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/CH.mp4");
+
+                //ShowVideoUri = GeneralVar.LanguageSelected == "BM" ? System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/CANCEL_ORDER.BM.mp4") :
+                //    GeneralVar.LanguageSelected == "EN" ? System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/CANCEL_ORDER.BI.mp4") : System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/CANCEL_ORDER.CH.mp4");
 
                 _SelectedPaymentMethod = paytype;
                 _barcodeScanned = string.Empty;
@@ -1493,11 +1511,15 @@ namespace ACWSSK.ViewModel
                 //{
                 //    System.Threading.Thread.Sleep(1000);
                 //}
+                SetPaymentStage(ePaymentStage.ShowVideo);
+                GeneralVar.vmMainWindow._WaitShowVideo.Reset();
+                GeneralVar.vmMainWindow._WaitShowVideo.WaitOne();
 
                 SetPaymentStage(ePaymentStage.PerformService);  // gt button
                 TriggerMachine();
                 _WaitPrint.Reset();
                 _WaitPrint.WaitOne(20000);
+
                 if (QRReceipt != null)
                 {
                     Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>

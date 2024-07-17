@@ -55,6 +55,7 @@ namespace ACWSSK.App_Code
         Failed,
         PerformService,
         ReceiptQR,
+        ShowVideo,
         None
     }
 

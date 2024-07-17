@@ -32,6 +32,7 @@ namespace ACWSSK.ViewModel
         private eModuleStage _currentModuleStage;
         int serviceClickTimeout = 0;
         int serviceClickAttempt = 0;
+        public AutoResetEvent _WaitShowVideo = new AutoResetEvent(false);
 
         #endregion
 

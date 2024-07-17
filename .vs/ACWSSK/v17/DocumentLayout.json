@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|c:\\users\\tanmi\\downloads\\ttj-acw-ssk-hfcqdpt-main\\ttj-acw-ssk-hfcqdpt-main\\acwssk\\viewmodel\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|solutionrelative:acwssk\\viewmodel\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|c:\\users\\tanmi\\downloads\\ttj-acw-ssk-hfcqdpt-main\\ttj-acw-ssk-hfcqdpt-main\\acwssk\\view\\showvideoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|solutionrelative:acwssk\\view\\showvideoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|c:\\users\\tanmi\\downloads\\ttj-acw-ssk-hfcqdpt-main\\ttj-acw-ssk-hfcqdpt-main\\acwssk\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|solutionrelative:acwssk\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|c:\\users\\tanmi\\downloads\\ttj-acw-ssk-hfcqdpt-main\\ttj-acw-ssk-hfcqdpt-main\\acwssk\\app_code\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|solutionrelative:acwssk\\app_code\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|c:\\users\\tanmi\\downloads\\ttj-acw-ssk-hfcqdpt-main\\ttj-acw-ssk-hfcqdpt-main\\acwssk\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B883554-3890-49BC-AA7E-BBF5E556A423}|ACWSSK\\ACWSSK.csproj|solutionrelative:acwssk\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ACWSSK\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\MainWindow.xaml",
+              "RelativeToolTip": "ACWSSK\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T17:28:35.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowVideoView.xaml",
+              "DocumentMoniker": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\View\\ShowVideoView.xaml",
+              "RelativeDocumentMoniker": "ACWSSK\\View\\ShowVideoView.xaml",
+              "ToolTip": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\View\\ShowVideoView.xaml",
+              "RelativeToolTip": "ACWSSK\\View\\ShowVideoView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T17:09:53.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enum.cs",
+              "DocumentMoniker": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\App_Code\\Enum.cs",
+              "RelativeDocumentMoniker": "ACWSSK\\App_Code\\Enum.cs",
+              "ToolTip": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\App_Code\\Enum.cs",
+              "RelativeToolTip": "ACWSSK\\App_Code\\Enum.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T17:08:56.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\ViewModel\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "ACWSSK\\ViewModel\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\ViewModel\\PaymentViewModel.cs",
+              "RelativeToolTip": "ACWSSK\\ViewModel\\PaymentViewModel.cs",
+              "ViewState": "AQIAAAACAAAAAAAAAAAswBICAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T17:01:44.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\app.config",
+              "RelativeDocumentMoniker": "ACWSSK\\app.config",
+              "ToolTip": "C:\\Users\\tanmi\\Downloads\\TTJ-ACW-SSK-HFCQDPT-main\\TTJ-ACW-SSK-HFCQDPT-main\\ACWSSK\\app.config",
+              "RelativeToolTip": "ACWSSK\\app.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-10T16:59:07.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
