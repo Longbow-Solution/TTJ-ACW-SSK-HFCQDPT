@@ -7,18 +7,14 @@
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="1280">
     <Grid Height="800" Width="1280">
-        <!--<MediaElement x:Name="paymentDoneMedia"           
-                      Source="./ACWSSK;component/Resources/TetapJayaVideo/CANCEL_ORDER.mp4"
-                      
-                      
-                      RenderOptions.BitmapScalingMode="LowQuality" IsMuted="True"/>-->
-
-        <MediaElement x:Name="paymentDoneMedia"
+        <MediaElement Name="AdvertisementVideo"
                       Source="{Binding ShowVideoUri, UpdateSourceTrigger=PropertyChanged}"
                       LoadedBehavior="Play"
                       UnloadedBehavior="Stop"
                       Stretch="Uniform"
                       RenderOptions.BitmapScalingMode="LowQuality"
+                      MediaOpened="MediaElement_MediaOpened"
+                      MediaFailed="MediaElement_MediaFailed"
                       MediaEnded="MediaElement_MediaEnded"
                       IsMuted="True"/>
     </Grid>

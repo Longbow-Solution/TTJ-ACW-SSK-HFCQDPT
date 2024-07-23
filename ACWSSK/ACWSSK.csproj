@@ -388,7 +388,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="View\BM.mp4" />
     <Resource Include="Resources\Images\CWICON.ico" />
     <Resource Include="CWICON.ico" />
     <Resource Include="Resources\Images\PaymentMethod\Lecshine Logo.png" />

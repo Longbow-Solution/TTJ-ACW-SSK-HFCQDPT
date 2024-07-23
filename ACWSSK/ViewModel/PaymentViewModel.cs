@@ -48,6 +48,7 @@ namespace ACWSSK.ViewModel
         private ePaymentMethod _SelectedPaymentMethod;
         AutoResetEvent _WaitDone = new AutoResetEvent(false);
         AutoResetEvent _WaitPrint = new AutoResetEvent(false);
+        ShowVideoView vShowVideo = new ShowVideoView();
         
         private ePaymentStage currentPaymentStage;
 
@@ -532,12 +533,6 @@ namespace ACWSSK.ViewModel
                     QRReceipt = null;
 
                 string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-
-                ShowVideoUri = GeneralVar.LanguageSelected == "BM" ? System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/BM.mp4"): 
-                    GeneralVar.LanguageSelected == "EN" ? System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/EN.mp4") : System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/CH.mp4");
-
-                //ShowVideoUri = GeneralVar.LanguageSelected == "BM" ? System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/CANCEL_ORDER.BM.mp4") :
-                //    GeneralVar.LanguageSelected == "EN" ? System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/CANCEL_ORDER.BI.mp4") : System.IO.Path.Combine(baseDirectory, "Resources/TetapJayaVideo/CANCEL_ORDER.CH.mp4");
 
                 _SelectedPaymentMethod = paytype;
                 _barcodeScanned = string.Empty;
@@ -1511,11 +1506,60 @@ namespace ACWSSK.ViewModel
                 //{
                 //    System.Threading.Thread.Sleep(1000);
                 //}
-                SetPaymentStage(ePaymentStage.ShowVideo);
-                GeneralVar.vmMainWindow._WaitShowVideo.Reset();
-                GeneralVar.vmMainWindow._WaitShowVideo.WaitOne();
 
-                SetPaymentStage(ePaymentStage.PerformService);  // gt button
+                ShowVideoUri = GeneralVar.LanguageSelected == "BM" ? "C:\\Files\\BM.mp4" :
+    GeneralVar.LanguageSelected == "EN" ? "C:\\Files\\EN.mp4" : "C:\\Files\\CH.mp4";
+
+                if (!File.Exists(ShowVideoUri))
+                {
+                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, $"Video file not found: {ShowVideoUri}", TraceCategory);
+
+                    Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                    {
+                        SetPaymentStage(ePaymentStage.PerformService);
+                    }));
+
+                    PerformServiceSteps();
+                    return;
+                }
+
+                Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                {
+                    SetPaymentStage(ePaymentStage.ShowVideo);
+                }));
+
+                GeneralVar.vmMainWindow._WaitShowVideo.Reset();
+                bool videoCompleted = GeneralVar.vmMainWindow._WaitShowVideo.WaitOne(10000);
+
+                if (videoCompleted)
+                {
+                    Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Background, new Action(() =>
+                    {
+                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, "Setting PerformService stage...", TraceCategory);
+                        SetPaymentStage(ePaymentStage.PerformService);  // go to button
+                        Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, "PerformService stage set.", TraceCategory);
+                    }));
+                }
+                else
+                {
+                    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceWarning, "Video did not complete within the timeout period.", TraceCategory);
+                }
+
+                PerformServiceSteps();
+
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Countdown Trigger Done."), TraceCategory);
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Perform Service Completed..."), TraceCategory);
+            }
+            catch (Exception ex)
+            {
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, string.Format("[Error] PerformService: {0}", ex.ToString()), TraceCategory);
+            }
+        }
+
+        private void PerformServiceSteps()
+        {
+            try
+            {
                 TriggerMachine();
                 _WaitPrint.Reset();
                 _WaitPrint.WaitOne(20000);
@@ -1582,49 +1626,11 @@ namespace ACWSSK.ViewModel
                 {
                     GeneralVar.vmMainWindow.SetModuleStage(eModuleStage.Home);
                 }));
-
-                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Countdown Trigger Done."), TraceCategory);
-                //StopTiggerSvcTimer();
-                //int counter = 0;
-
-                //if (GeneralVar.IOBoard_Enabled)
-                //{
-                //    Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Start Trigger Car Wash..."), TraceCategory);
-                //    GeneralVar.IOBoardCtrl.EntryPassCounter++;
-
-                //    if (GeneralVar.IOBoard_SensorControl_Enabled)
-                //    {
-                //        if (GeneralVar.ACWMachineModel == eCarWashMachine.HEFEI)
-                //        {
-                //            while (!GeneralVar.IOBoardCtrl.ACWActiveStatus && counter <= GeneralVar.StartPendingInSecond)
-                //            {
-                //                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ACW Status : NormalStatus = {0}, TermStatus = {1}, ActiveStatus = {2}, ErrorWashStatus = {3}", GeneralVar.IOBoardCtrl.ACWNormalStatus, GeneralVar.IOBoardCtrl.ACWTermStatus, GeneralVar.IOBoardCtrl.ACWActiveStatus, GeneralVar.IOBoardCtrl.ACWErrorWashStatus), TraceCategory);
-                //                System.Threading.Thread.Sleep(1000);
-                //                counter++;
-                //            }
-                //            Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ACW Status : NormalStatus = {0}, TermStatus = {1}, ActiveStatus = {2}, ErrorWashStatus = {3}", GeneralVar.IOBoardCtrl.ACWNormalStatus, GeneralVar.IOBoardCtrl.ACWTermStatus, GeneralVar.IOBoardCtrl.ACWActiveStatus, GeneralVar.IOBoardCtrl.ACWErrorWashStatus), TraceCategory);
-                //        }
-                //        else if (GeneralVar.ACWMachineModel == eCarWashMachine.QINGDAO)
-                //        {
-                //            while (GeneralVar.IOBoardCtrl.ACWSensorObjectStatus && counter <= GeneralVar.StartPendingInSecond)
-                //            {
-                //                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ACW Status : MaintenanceErrorStatus = {0}, SensorObjectStatus = {1}", GeneralVar.IOBoardCtrl.ACWErrorOperationStatus, GeneralVar.IOBoardCtrl.ACWSensorObjectStatus), TraceCategory);
-                //                System.Threading.Thread.Sleep(1000);
-                //                counter++;
-                //            }
-                //            Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("ACW Status : MaintenanceErrorStatus = {0}, SensorObjectStatus = {1}", GeneralVar.IOBoardCtrl.ACWErrorOperationStatus, GeneralVar.IOBoardCtrl.ACWSensorObjectStatus), TraceCategory);
-                //        }
-                //    }
-                //}
-
-                //Print();
-                
-
-                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceInfo, string.Format("Perform Service Completed..."), TraceCategory);
             }
             catch (Exception ex)
             {
-                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, string.Format("[Error] PerformService: {0}", ex.ToString()), TraceCategory);
+                Trace.WriteLineIf(GeneralVar.SwcTraceLevel.TraceError, string.Format("[Error] PerformServiceSteps: {0}", ex.ToString()), TraceCategory);
+
             }
         }
 
@@ -2195,7 +2201,7 @@ namespace ACWSSK.ViewModel
 
                         SetPaymentStage(ePaymentStage.ProcessTransaction);
                         StartTransaction();
-                        System.Threading.Thread.Sleep(3000);
+                        System.Threading.Thread.Sleep(1000);
 
                         eWalletPaymentType = LB_ipay88.Model.PaymentType.UnifiedScan;
                         ClientResponseModel c = new ClientResponseModel();
@@ -2239,8 +2245,13 @@ namespace ACWSSK.ViewModel
                             bool canGetDetails = GetPaymentDetails_EW(out paymentTypeId, out paymentReferenceNo, out paymentData);
                             UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
 
-                            SetTrxStatus(true);
-                            PerformService();
+                            SetTrxStatus(true);                           
+
+                            Thread th = new Thread(() =>
+                            {
+                                PerformService();
+                            });
+                            th.Start();
                         }
                         else if (c.Status != 1)
                         {
@@ -2288,17 +2299,21 @@ namespace ACWSSK.ViewModel
                         {
                             SetPaymentStage(ePaymentStage.ProcessTransaction);
                             StartTransaction();
-                            System.Threading.Thread.Sleep(3000);
+                            System.Threading.Thread.Sleep(1000);
                             bool canGetDetails = GetPaymentDetails_CC("NA", out paymentTypeId, out paymentReferenceNo, out paymentData);
                             UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
 
                             SetTrxStatus(true);
-                            PerformService();
+                            Thread th = new Thread(() =>
+                            {
+                                PerformService();
+                            });
+                            th.Start();
                         }
                         else
                         {
                             PrintReceipt(false, false, ePaymentMethod.CCards);
-                            System.Threading.Thread.Sleep(3000);
+                            System.Threading.Thread.Sleep(1000);
                         }
 
                         #endregion
@@ -2363,7 +2378,11 @@ namespace ACWSSK.ViewModel
                             UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
 
                             SetTrxStatus(true);
-                            PerformService();
+                            Thread th = new Thread(() =>
+                            {
+                                PerformService();
+                            });
+                            th.Start();
                         }
                         else if (c.Status != 1)
                         {
@@ -2416,7 +2435,11 @@ namespace ACWSSK.ViewModel
                             UpdateTransaction(paymentTypeId, paymentReferenceNo, paymentData, null, "N");
 
                             SetTrxStatus(true);
-                            PerformService();
+                            Thread th = new Thread(() =>
+                            {
+                                PerformService();
+                            });
+                            th.Start();
                         }
                         else
                         {
