@@ -1097,6 +1097,8 @@ namespace ACWSSK.ViewModel
 
                 if (LB_ipay88.Model.Payment.GetPaymentType(EwalletResponse.PaymentId) == LB_ipay88.Model.PaymentType.TouchNGoeWalletScan)
                 { PaymentCode = "TNGD"; }
+                else if (EwalletResponse.PaymentId == 733 || EwalletResponse.PaymentId == 737 || EwalletResponse.PaymentId == 233 || EwalletResponse.PaymentId == 234)
+                { PaymentCode = "ALI"; }
                 else if (LB_ipay88.Model.Payment.GetPaymentType(EwalletResponse.PaymentId) == LB_ipay88.Model.PaymentType.MaybankScan)
                 { PaymentCode = "MAE"; }
                 else if (LB_ipay88.Model.Payment.GetPaymentType(EwalletResponse.PaymentId) == LB_ipay88.Model.PaymentType.BoostWalletScan || LB_ipay88.Model.Payment.GetPaymentType(EwalletResponse.PaymentId) == LB_ipay88.Model.PaymentType.BoostWalletQR)
